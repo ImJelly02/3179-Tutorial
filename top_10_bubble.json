@@ -1,0 +1,172 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 300,
+    "title": {
+      "text": {
+        "expr": "'Top 10 Countries with Most ' + (metric == 'refugees_under_unhcr_mandate' ? 'Refugees' : 'Asylum Seekers') + ' in Malaysia (' + year + ')'" 
+      },
+      "font": "Georgia",
+      "fontSize": 30,
+      "color": "white",
+      "offset": 25,
+      "anchor": "middle"
+    },
+    "data": {
+      "url": "DataProcessing/cleaned_population_new.csv",
+      "format": {"type": "csv"}
+    },
+    "params": [
+      {
+        "name": "year",
+        "value": 2011,
+        "bind": {
+          "input": "range",
+          "min": 2003,
+          "max": 2023,
+          "step": 1,
+          "name": "Select the year: "
+        }
+      },
+      {
+        "name": "metric",
+        "value": "refugees_under_unhcr_mandate",
+        "bind": {
+          "input": "select",
+          "options": ["refugees_under_unhcr_mandate", "asylum_seekers"],
+          "name": "Select the population type: "
+        }
+      },
+      {
+        "name": "filter_region",
+        "value": "All",
+        "bind": {
+          "input": "select",
+          "options": ["All", "Africa", "Asia", "Europe", "Americas"],
+          "name": "Filter by Continent: "
+        }
+      }
+    ],
+    "transform": [
+      {
+        "filter": "datum.year == year"
+      },
+      {
+        "filter": "filter_region == 'All' || datum.region == filter_region"
+      },
+      {
+        "calculate": "datum[metric]",
+        "as": "selected_metric"
+      },
+      {
+        "calculate": "metric == 'refugees_under_unhcr_mandate' ? 'Refugees under UNHCR Mandate' : 'Asylum Seekers'",
+        "as": "axis_title"
+      },
+      {
+        "window": [
+          {
+            "op": "rank",
+            "as": "rank"
+          }
+        ],
+        "sort": [
+          {
+            "field": "selected_metric",
+            "order": "descending"
+          }
+        ]
+      },
+      {
+        "filter": "datum.rank <= 10"
+      }
+    ],
+    "layer": [
+      {
+        "mark": {
+          "type": "text",
+          "align": "center",
+          "dy": -5,
+          "color": "white"
+        },
+        "encoding": {
+          "text": {
+            "field": "selected_metric",
+            "type": "quantitative",
+            "format": ","
+          },
+          "x": {"field": "country_of_origin"},
+          "y": {"field": "region"}
+        }
+      },
+      {
+        "mark": {
+          "type": "circle",
+          "opacity": 0.8,
+          "stroke": "black",
+          "strokeWidth": 1
+        },
+        "encoding": {
+          "x": {
+            "field": "country_of_origin",
+            "type": "nominal",
+            "axis": {"title": "Top 10 Countries", "titleFont": "Segoe UI", "titleFontSize": 20, "labelFont": "Segoe UI",
+      "labelFontSize": 10.5, "titlePadding": 12, "labelFontWeight":"bold"}
+          },
+          "y": {
+            "field": "region",
+            "type": "nominal",
+            "axis": {"title": "Continent", "labelAngle": 0, "titleFont": "Segoe UI", "titleFontSize": 20, "labelFont": "Segoe UI",
+      "labelFontSize": 10.5, "titlePadding": 12, "labelFontWeight":"bold"}
+          },
+          "size": {
+            "field": "selected_metric",
+            "type": "quantitative",
+            "scale": {"range": [100, 3000], "type": "sqrt"},
+            "legend": {"title": "Population Density"}
+          },
+          "color": {
+            "field": "region",
+            "type": "nominal",
+            "legend": {"title": "Continent"},
+            "scale": {"range": ["#FFB6C1", "#87CEFA", "#98FB98", "#FFA07A", "#DA70D6"]}
+          },
+          "tooltip": [
+            {"field": "country_of_origin", "type": "nominal", "title": "Country"},
+            {"field": "selected_metric", "type": "quantitative", "title": "Metric Value"},
+            {"field": "region", "type": "nominal", "title": "Continent"},
+            {"field": "year", "type": "ordinal", "title": "Year"}
+          ]
+        }
+      }
+    ],
+    "config": {
+      "background": "black",
+      "text": {
+        "font": "Calibri",
+        "color": "white"
+      },
+      "axis": {
+        "labelColor": "white",
+        "titleColor": "white",
+        "tickColor": "white",
+        "gridColor": "#444444",
+        "labelFontSize": 12,
+        "titleFontSize": 18,
+        "titleFont": "Segoe UI",
+        "titleFontWeight": "normal"
+      },
+      "legend": {
+        "direction": "vertical",
+        "labelFont": "Segoe UI",
+        "labelFontSize": 10.5,
+        "labelColor": "white",
+        "titleFont": "Segoe UI",
+        "titleFontSize": 20,
+        "titleFontWeight": "bold",
+        "titleColor": "white",
+        "padding": 10,
+        "symbolFillColor": "white"
+      }
+    }
+  }
+  

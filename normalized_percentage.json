@@ -1,0 +1,129 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+    "height": 300,
+  "title": {
+      "text": ["Normalized Percentage Distribution of Three Refugee", "Population Types"],
+      "font": "Georgia",
+      "anchor": "start",
+      "fontSize": 32,
+      "color": "white",
+      "offset": 25,
+      "subtitle":["A Comparative Analysis of 2003 and 2023"],
+      "subtitleFont": "Calibri",
+      "subtitleFontSize": 22,
+      "subtitleFontWeight": "lighter",
+      "subtitleColor": "white"
+    },
+  "data": {
+    "url": "DataProcessing/cleaned_population_new.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "filter": "datum.year == 2003 || datum.year == 2023"
+    },
+    {
+      "fold": ["refugees_under_unhcr_mandate", "stateless_persons", "asylum_seekers"],
+      "as": ["population_type", "Population"]
+    },
+    {
+      "calculate": "datum.population_type == 'refugees_under_unhcr_mandate' ? 'Refugees under UNHCR Mandate' : datum.population_type == 'asylum_seekers' ? 'Asylum Seekers' : 'Stateless Persons'",
+      "as": "population_type_label"
+    },
+    {
+      "aggregate": [{"op": "sum", "field": "Population", "as": "TotalPopulation"}],
+      "groupby": ["year", "population_type_label"]
+    },
+    {
+      "joinaggregate": [
+        {"op": "sum", "field": "TotalPopulation", "as": "YearlyTotal"}
+      ],
+      "groupby": ["year"]
+    },
+    {
+      "calculate": "(datum.TotalPopulation / datum.YearlyTotal) * 100",
+      "as": "Percentage"
+    },
+    {
+      "calculate": "format(datum.Percentage, '.1f') + '%'",
+      "as": "PercentageFormatted"
+    },
+    {
+      "filter": "datum.Percentage > 0"
+    }
+  ],
+  "encoding": {
+    "y": {"field": "year", "type": "ordinal", "axis": {"title": null, "titlePadding": 12}}
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "stroke": "black",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "TotalPopulation",
+          "type": "quantitative",
+          "stack": "normalize",
+          "axis": {"title": "Percentage", "format": ".0%", "titlePadding": 12}
+        },
+        "color": {
+          "field": "population_type_label",
+          "type": "nominal",
+          "scale": {"range": ["#ffbcdd", "#ff7e8f", "#c34347"]},
+          "title": "Population Type"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dy": 5,
+        "color": "white",
+        "fontSize": 12
+      },
+      "encoding": {
+        "x": {
+          "field": "TotalPopulation",
+          "type": "quantitative",
+          "stack": "normalize",
+          "bandPosition": 0.5
+        },
+        "text": {
+          "field": "PercentageFormatted"
+        },
+        "detail": {
+          "field": "population_type_label"
+        }
+      }
+    }
+  ],
+  "config": {
+    "background": "black",
+    "axis": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "tickColor": "white",
+      "gridColor": "#444444",
+      "labelFontSize": 12,   
+      "titleFontSize": 18,
+      "titleFont": "Segoe UI",
+      "titleFontWeight": "normal"
+    },
+    "legend": {
+      "direction": "vertical",
+      "labelFont": "Segoe UI",
+      "labelFontSize": 10.5,
+      "labelColor": "white",
+      "titleFont": "Segoe UI",
+      "titleFontSize": 20,
+      "titleFontWeight": "bold",
+      "titleColor": "white"
+    }
+  }
+}

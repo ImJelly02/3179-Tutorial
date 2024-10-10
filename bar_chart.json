@@ -1,0 +1,131 @@
+  {
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 300,
+    "title": {
+      "text": ["Total refugees, asylum-seekers, and stateless persons", "from 2003 to 2023"],
+      "font": "Georgia",
+      "anchor": "start",
+      "fontSize": 32,
+      "color": "white",
+      "offset": 25
+    },
+    "data": {
+      "url": "DataProcessing/cleaned_population_new.csv",
+      "format": {
+        "type": "csv"
+      }
+    },
+    "transform": [
+      {
+        "filter": "datum.year >= 2003 && datum.year <= 2023"
+      },
+      {
+        "fold": ["refugees_under_unhcr_mandate", "asylum_seekers", "stateless_persons"],
+        "as": ["population_type", "value"]
+      },
+      {
+        "calculate": "datum.population_type == 'refugees_under_unhcr_mandate' ? 'Refugees under UNHCR Mandate' : datum.population_type == 'asylum_seekers' ? 'Asylum Seekers' : 'Stateless Persons'",
+        "as": "population_type_label"
+      },
+      {
+        "aggregate": [
+          {
+            "op": "sum",
+            "field": "value",
+            "as": "total_population"
+          }
+        ],
+        "groupby": ["year", "population_type_label"]
+      }
+    ],
+    "layer": [
+        {
+            "mark": {"type": "bar", "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
+            "encoding": {
+              "x": {
+                "field": "year",
+                "type": "ordinal",
+                "title": "Year",
+                "axis":{"titlePadding": 12}
+              },
+              "y": {
+                "field": "total_population",
+                "type": "quantitative",
+                "title": "Total Population",
+                "axis":{"titlePadding": 12}
+              },
+              "color": {
+                "field": "population_type_label",
+                "type": "nominal",
+                "title": "Population Type",
+                "scale": {
+                  "range": ["#ffbcdd", "#ff7e8f", "#c34347"]
+                }
+              },
+              "tooltip": [
+                {"field": "year", "type": "ordinal", "title": "Year"},
+                {"field": "population_type_label", "type": "nominal", "title": "Type"},
+                {"field": "total_population", "type": "quantitative", "title": "Total Population"}
+              ]
+            }
+        },
+        {
+            "mark":{
+                "type": "text",
+                "align": "left",
+                "baseline": "line-bottom",
+                "dx": 60,
+                "dy": -150,
+                "fontSize": 15,
+                "color": "white",
+                "font": "Calibri",
+                "fontWeight": "lighter"
+            },
+            "encoding": {
+                "x":{
+                    "datum": 2023,
+                    "type": "ordinal"
+                },
+                "y":{
+                    "datum": 0
+                },
+                "text": {
+                    "value": ["In 2023, Malaysia's stateless",
+                                "population is expected to",
+                                "include 9,392 non-displaced", 
+                                "individuals who may be eligible", 
+                                "for Malaysian citizenship,",
+                                "identified by a local NGO's", 
+                                "registration and legal assistance", 
+                                "programme in West Malaysia with", 
+                                "UNHCR's technical assistance."]
+                }
+            }
+        }
+    ],
+    "config": {
+      "background": "black",
+      "axis": {
+        "labelColor": "white",
+        "titleColor": "white",
+        "tickColor": "white",
+        "gridColor": "#444444",
+        "labelFontSize": 12,   
+        "titleFontSize": 18,
+        "titleFont": "Segoe UI",
+        "titleFontWeight": "normal"
+      },
+      "legend": {
+        "direction": "vertical",
+        "labelFont": "Segoe UI",
+        "labelFontSize": 10.5,
+        "labelColor": "white",
+        "titleFont": "Segoe UI",
+        "titleFontSize": 20,
+        "titleFontWeight": "bold",
+        "titleColor": "white"
+      }
+    }
+  }
+    

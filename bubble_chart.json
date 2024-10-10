@@ -1,0 +1,137 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 300,
+  "title": {
+    "text": {"signal": "'Global Refugee Origins by Continent to Malaysia in ' + year"}, 
+    "font": "Georgia", 
+    "fontSize": 32, 
+    "color": "white",
+    "anchor": "middle",
+    "offset": 25
+  },
+  "data": {
+    "url": "DataProcessing/cleaned_population_new.csv",
+    "format": {"type": "csv"}
+  },
+  "params": [
+    {
+      "name": "year",
+      "value": 2011,
+      "bind": {
+        "input": "range",
+        "min": 2003,
+        "max": 2023,
+        "step": 1,
+        "name": "Select the year: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.year == year"
+    },
+    {
+      "filter": "datum.region != 'null'"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "refugees_under_unhcr_mandate",
+          "as": "total_refugees"
+        }
+      ],
+      "groupby": ["region", "year"]
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "tooltip": true,
+        "stroke": "white",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "x": {
+          "field": "region",
+          "type": "nominal",
+          "axis": {"title": null, "labelAngle": 0}
+        },
+        "y": {
+          "field": "region",
+          "type": "nominal",
+          "axis": null
+        },
+        "size": {
+          "field": "total_refugees",
+          "type": "quantitative",
+          "scale": {"range": [100, 2000]},
+          "legend": {
+            "title": "Total Refugees",
+            "symbolFillColor": "white",
+            "symbolStrokeWidth": 1.5
+          }
+        },
+        "color": {
+          "field": "region",
+          "type": "nominal",
+          "legend": {"title": "Continent"},
+          "scale": {
+            "range": ["#c7fe7d", "#00e0ff", "#ff62b3", "#fcb2ff", "#ff7f3b"]
+          }
+        },
+        "tooltip": [
+          {"field": "year", "type": "ordinal", "title": "Year"},
+          {"field": "region", "type": "nominal", "title": "Continent"},
+          {"field": "total_refugees", "type": "quantitative", "title": "Total Refugees"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "middle",
+        "dy": -10,
+        "color": "white",
+        "fontSize": 12,
+        "fontStyle": "Segoe UI"
+      },
+      "encoding": {
+        "x": {"field": "region", "type": "nominal"},
+        "y": {"field": "region", "type": "nominal"},
+        "text": {"field": "total_refugees", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {
+    "background": "black",
+    "text": {
+      "font": "Calibri",
+      "color": "white"
+    },
+    "axis": {
+      "labelColor": "white",
+      "titleColor": "white",
+      "tickColor": "white",
+      "gridColor": "#444444",
+      "labelFontSize": 12,
+      "titleFontSize": 18,
+      "titleFont": "Segoe UI",
+      "titleFontWeight": "normal"
+    },
+    "legend": {
+      "direction": "vertical",
+      "labelFont": "Segoe UI",
+      "labelFontSize": 10.5,
+      "labelColor": "white",
+      "titleFont": "Segoe UI",
+      "titleFontSize": 20,
+      "titleFontWeight": "bold",
+      "titleColor": "white",
+      "padding": 10
+    }
+  }
+}
