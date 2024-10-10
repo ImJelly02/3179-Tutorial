@@ -11,7 +11,7 @@
       "offset": 25
     },
     "data": {
-      "url": "DataProcessing/cleaned_population_new.csv",
+      "url": "cleaned_population_new.csv",
       "format": {
         "type": "csv"
       }
