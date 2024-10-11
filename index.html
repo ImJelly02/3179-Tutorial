@@ -23,7 +23,7 @@
 <!-- Inline CSS -->
 <style>
     body {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
         background-color: white;
         color: white;
     }
@@ -72,14 +72,14 @@
         <div class="pure-g">
             <div class="pure-u-1">
                 <h1>Refugee Origin Dashboard</h1>
-                <p>This dashboard provides insights into refugee populations in Malaysia, including trends, origins, and distributions</p>
+                <h4>This dashboard provides insights into refugee populations in Malaysia, including trends, origins, and distributions</h4>
             </div>
         </div>
 
         <!-- Refugee Map -->
         <div class="pure-g">
             <div class="pure-u-1">
-                <p> pls note that the map is not working TT (i changed it from bubble map to choropleth map the last min)</p>
+                <p> *pls note that the map is not working TT (i changed it from bubble map to choropleth map the last min)</p>
                 <div id="map" class="vis-container"></div>
             </div>
         </div>
@@ -87,14 +87,15 @@
         <!-- Top 10 Countries with Most Refugees & Bubble Chart -->
         <div class="pure-g">
             <div class="pure-u-1">
-                <h4>As of August 2024, approximately 191,470 refugees and asylum-seekers are registered with UNHCR in Malaysia. </h4>
-                <h4>Around 169,000 of them are from Myanmar, including 110,610 Rohingyas, 27,250 Chins, and 31,140 from other conflict-affected ethnic groups. </h4>
-                <h4>The remaining 22,470 individuals come from over 50 countries, including Pakistanis, Yemenis, Somalis, Afghans, and Syrians.</h4>
+                <h6>As of August 2024, approximately 191,470 refugees and asylum-seekers are registered with UNHCR in Malaysia. </h6>
+                <h6>Around 169,000 of them are from Myanmar, including 110,610 Rohingyas, 27,250 Chins, and 31,140 from other conflict-affected ethnic groups. </h6>
+                <h6>The remaining 22,470 individuals come from over 50 countries, including Pakistanis, Yemenis, Somalis, Afghans, and Syrians.</h6>
             </div>
             <div class="pure-u-1">
                 <div id="top_10_bubble" class="vis-container"></div>
             </div>
             <div class="pure-u-1">
+                <h6>Most of the refugees in Malaysia originate from Asian countries based on the chart.</h6>
                 <div id="bubble_chart" class="vis-container"></div>
             </div>
         </div>
@@ -102,8 +103,8 @@
         <!-- Bar Chart for Yearly Trends -->
         <div class="pure-g">
             <div class="pure-u-1">
-                 <h4>The Arab Spring began as social movements in Middle East and shortly after uprisings, regime changes and civil wars emerged in 2011. </h4>
-                <h4>The largest violence in Myanmar forced over 742,000 Rohingya people, half of them children, to seek refuge in other countries since August 2017.</h4>
+                 <h6>The Arab Spring began as social movements in Middle East and shortly after uprisings, regime changes and civil wars emerged in 2011. </h6>
+                <h6>The largest violence in Myanmar forced over 742,000 Rohingya people, half of them children, to seek refuge in other countries since August 2017.</h6>
                 <div id="bar_chart" class="vis-container"></div>
             </div>
         </div>
@@ -111,8 +112,8 @@
                 <!-- Normalized Percentage Stacked Bar -->
         <div class="pure-g">
             <div class="pure-u-1">
-                <h4> This chart illustrates the composition of the three major refugee populations in Malaysia:</h4>
-                <h4> refugees under the UNHCR mandate, asylum seekers, and stateless persons. 2003 vs 2023 </h4>
+                <h6> This chart illustrates the composition of the three major refugee populations in Malaysia:</h6>
+                <h6> Refugees under the UNHCR mandate, Asylum seekers, and Stateless persons (2003 vs 2023) </h6>
                 <div id="normalized_percentage" class="vis-container"></div>
             </div>
         </div>
