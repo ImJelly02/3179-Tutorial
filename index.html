@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Refugee Dashboard</title>
+
+    <!-- Import Vega & Vega-Lite -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<!-- Inline CSS -->
+<style>
+    body {
+        font-family: 'Open Sans', sans-serif;
+        background-color: white;
+        color: white;
+    }
+
+    .page {
+        max-width: 950px;
+        margin: auto;
+        background-color: #000000;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .vis-container {
+        width: 100%;
+        height: 400px;
+        margin: 20px 0;
+    }
+
+    .pure-u-1-2 {
+        padding: 10px;
+    }
+
+    .pure-g {
+        margin-bottom: 40px;
+    }
+
+    h1, h2 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    .small-font {
+        font-size: 14px;
+    }
+</style>
+</head>
+
+<body>
+
+    <div class="page">
+
+        <!-- Title and Description -->
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <h1>Refugee Origin Dashboard</h1>
+                <p>This dashboard provides insights into refugee populations in Malaysia, including trends, origins, and distributions</p>
+            </div>
+        </div>
+
+        <!-- Refugee Map -->
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <p> pls note that the map is not working TT (i changed it from bubble map to choropleth map the last min)</p>
+                <div id="map" class="vis-container"></div>
+            </div>
+        </div>
+
+        <!-- Top 10 Countries with Most Refugees & Bubble Chart -->
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <h4>As of August 2024, approximately 191,470 refugees and asylum-seekers are registered with UNHCR in Malaysia. </h4>
+                <h4>Around 169,000 of them are from Myanmar, including 110,610 Rohingyas, 27,250 Chins, and 31,140 from other conflict-affected ethnic groups. </h4>
+                <h4>The remaining 22,470 individuals come from over 50 countries, including Pakistanis, Yemenis, Somalis, Afghans, and Syrians.</h4>
+            </div>
+            <div class="pure-u-1">
+                <div id="top_10_bubble" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1">
+                <div id="bubble_chart" class="vis-container"></div>
+            </div>
+        </div>
+
+        <!-- Bar Chart for Yearly Trends -->
+        <div class="pure-g">
+            <div class="pure-u-1">
+                 <h4>The Arab Spring began as social movements in Middle East and shortly after uprisings, regime changes and civil wars emerged in 2011. </h4>
+                <h4>The largest violence in Myanmar forced over 742,000 Rohingya people, half of them children, to seek refuge in other countries since August 2017.</h4>
+                <div id="bar_chart" class="vis-container"></div>
+            </div>
+        </div>
+
+                <!-- Normalized Percentage Stacked Bar -->
+        <div class="pure-g">
+            <div class="pure-u-1">
+                <h4> This chart illustrates the composition of the three major refugee populations in Malaysia:</h4>
+                <h4> refugees under the UNHCR mandate, asylum seekers, and stateless persons. 2003 vs 2023 </h4>
+                <div id="normalized_percentage" class="vis-container"></div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Vega Embed Scripts -->
+    <script type="text/javascript">
+        vegaEmbed('#map', 'testing.json', { "actions": false }).then(function (result) {
+            console.log("Map rendered");
+        }).catch(console.error);
+
+        vegaEmbed('#top_10_bubble', 'top_10_bubble.json', { "actions": false }).then(function (result) {
+            console.log("Top 10 Bubble Chart rendered");
+        }).catch(console.error);
+
+        vegaEmbed('#bubble_chart', 'bubble_chart.json', { "actions": false }).then(function (result) {
+            console.log("Bubble Chart rendered");
+        }).catch(console.error);
+
+        vegaEmbed('#normalized_percentage', 'normalized_percentage.json', { "actions": false }).then(function (result) {
+            console.log("Normalized Percentage Chart rendered");
+        }).catch(console.error);
+
+        vegaEmbed('#bar_chart', 'bar_chart.json', { "actions": false }).then(function (result) {
+            console.log("Bar Chart rendered");
+        }).catch(console.error);
+    </script>
+</body>
+
+</html>
