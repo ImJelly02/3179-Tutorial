@@ -1,0 +1,843 @@
+"year","country_of_origin","country_of_origin_iso","country_of_asylum","country_of_asylum_iso","refugees_under_unhcr_mandate","asylum_seekers","IDPs.of.concern.to.UNHCR","Other.people.in.need.of.international.protection","Stateless.persons","Host.Community","Others.of.concern","country_code","region","sub_region","latitude_origin","longitude_origin","latitude_asylum","longitude_asylum"
+2001,"Afghanistan","AFG","Malaysia","MYS",77,45,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2001,"Indonesia","IDN","Malaysia","MYS",83,82,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2001,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",8,0,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2001,"Iraq","IRQ","Malaysia","MYS",11,0,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2001,"Myanmar","MMR","Malaysia","MYS",5151,106,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2001,"Philippines","PHL","Malaysia","MYS",45100,0,0,"-",0,0,0,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2001,"Somalia","SOM","Malaysia","MYS",21,0,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2001,"Serbia and Kosovo: S/RES/1244 (1999)","SRB","Malaysia","MYS",5,0,0,"-",0,0,0,"RS","Europe","Southern Europe",44.016521,21.005859,4.210484,101.975766
+2001,"Uzbekistan","UZB","Malaysia","MYS",0,5,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2002,"Afghanistan","AFG","Malaysia","MYS",36,13,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2002,"Burundi","BDI","Malaysia","MYS",5,6,0,"-",0,0,0,"BI","Africa","Sub-Saharan Africa",-3.373056,29.918886,4.210484,101.975766
+2002,"Bangladesh","BGD","Malaysia","MYS",0,52,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2002,"China","CHN","Malaysia","MYS",6,5,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2002,"Palestinian","PSE","Malaysia","MYS",0,5,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2002,"India","IND","Malaysia","MYS",0,5,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2002,"Indonesia","IDN","Malaysia","MYS",144,1170,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2002,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",8,5,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2002,"Iraq","IRQ","Malaysia","MYS",26,0,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2002,"Sri Lanka","LKA","Malaysia","MYS",0,5,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2002,"Myanmar","MMR","Malaysia","MYS",5247,298,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2002,"Pakistan","PAK","Malaysia","MYS",5,0,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2002,"Philippines","PHL","Malaysia","MYS",45107,0,0,"-",0,0,0,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2002,"Sierra Leone","SLE","Malaysia","MYS",0,5,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2002,"Somalia","SOM","Malaysia","MYS",25,0,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2002,"Tunisia","TUN","Malaysia","MYS",5,0,0,"-",0,0,0,"TN","Africa","Northern Africa",33.886917,9.537499,4.210484,101.975766
+2002,"Uzbekistan","UZB","Malaysia","MYS",0,5,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2003,"Afghanistan","AFG","Malaysia","MYS",18,6,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2003,"Algeria","DZA","Malaysia","MYS",0,5,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2003,"Bangladesh","BGD","Malaysia","MYS",0,133,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2003,"China","CHN","Malaysia","MYS",6,5,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2003,"Congo","COG","Malaysia","MYS",0,7,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2003,"Cote d'Ivoire","CIV","Malaysia","MYS",0,5,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2003,"India","IND","Malaysia","MYS",0,8,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2003,"Indonesia","IDN","Malaysia","MYS",3198,1799,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2003,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",6,0,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2003,"Iraq","IRQ","Malaysia","MYS",19,5,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2003,"Liberia","LBR","Malaysia","MYS",0,36,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2003,"Libya","LBY","Malaysia","MYS",0,6,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2003,"Sri Lanka","LKA","Malaysia","MYS",0,146,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2003,"Myanmar","MMR","Malaysia","MYS",4152,6990,0,"-",0,0,4856,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2003,"Nepal","NPL","Malaysia","MYS",0,6,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2003,"Pakistan","PAK","Malaysia","MYS",0,11,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2003,"Philippines","PHL","Malaysia","MYS",7,0,0,"-",0,0,57197,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2003,"Rwanda","RWA","Malaysia","MYS",0,5,0,"-",0,0,0,"RW","Africa","Sub-Saharan Africa",-1.940278,29.873888,4.210484,101.975766
+2003,"Sierra Leone","SLE","Malaysia","MYS",0,5,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2003,"Somalia","SOM","Malaysia","MYS",11,11,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2003,"Sudan","SDN","Malaysia","MYS",0,10,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2003,"Tunisia","TUN","Malaysia","MYS",5,0,0,"-",0,0,0,"TN","Africa","Northern Africa",33.886917,9.537499,4.210484,101.975766
+2004,"Afghanistan","AFG","Malaysia","MYS",26,27,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2004,"Algeria","DZA","Malaysia","MYS",0,8,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2004,"Bangladesh","BGD","Malaysia","MYS",0,174,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2004,"Cambodia","KHM","Malaysia","MYS",0,79,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2004,"China","CHN","Malaysia","MYS",6,11,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2004,"Congo","COG","Malaysia","MYS",0,7,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2004,"Eritrea","ERI","Malaysia","MYS",0,5,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2004,"Palestinian","PSE","Malaysia","MYS",0,5,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2004,"Cote d'Ivoire","CIV","Malaysia","MYS",0,5,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2004,"India","IND","Malaysia","MYS",0,13,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2004,"Indonesia","IDN","Malaysia","MYS",15181,446,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2004,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",13,8,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2004,"Iraq","IRQ","Malaysia","MYS",31,14,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2004,"Liberia","LBR","Malaysia","MYS",6,110,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2004,"Libya","LBY","Malaysia","MYS",0,6,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2004,"Sri Lanka","LKA","Malaysia","MYS",6,374,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2004,"Morocco","MAR","Malaysia","MYS",0,5,0,"-",0,0,0,"MA","Africa","Northern Africa",31.791702,-7.09262,4.210484,101.975766
+2004,"Myanmar","MMR","Malaysia","MYS",9601,8857,0,"-",0,0,997,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2004,"Nepal","NPL","Malaysia","MYS",0,24,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2004,"Nigeria","NGA","Malaysia","MYS",0,10,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2004,"Pakistan","PAK","Malaysia","MYS",6,40,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2004,"Philippines","PHL","Malaysia","MYS",5,0,0,"-",0,0,61314,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2004,"Russian Federation","RUS","Malaysia","MYS",5,6,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2004,"Rwanda","RWA","Malaysia","MYS",0,5,0,"-",0,0,0,"RW","Africa","Sub-Saharan Africa",-1.940278,29.873888,4.210484,101.975766
+2004,"Sierra Leone","SLE","Malaysia","MYS",0,5,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2004,"Somalia","SOM","Malaysia","MYS",9,22,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2004,"Viet Nam","VNM","Malaysia","MYS",0,9,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2004,"Sudan","SDN","Malaysia","MYS",5,26,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2004,"Thailand","THA","Malaysia","MYS",0,7,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2004,"Zimbabwe","ZWE","Malaysia","MYS",0,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2005,"Afghanistan","AFG","Malaysia","MYS",51,33,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2005,"Algeria","DZA","Malaysia","MYS",6,5,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2005,"Egypt","EGY","Malaysia","MYS",0,5,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2005,"Burundi","BDI","Malaysia","MYS",0,5,0,"-",0,0,0,"BI","Africa","Sub-Saharan Africa",-3.373056,29.918886,4.210484,101.975766
+2005,"Bangladesh","BGD","Malaysia","MYS",0,167,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2005,"Cambodia","KHM","Malaysia","MYS",6,346,0,"-",0,0,5,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2005,"China","CHN","Malaysia","MYS",15,5,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2005,"Cameroon","CMR","Malaysia","MYS",0,5,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2005,"Eritrea","ERI","Malaysia","MYS",0,5,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2005,"Palestinian","PSE","Malaysia","MYS",0,5,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2005,"Cote d'Ivoire","CIV","Malaysia","MYS",0,12,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2005,"India","IND","Malaysia","MYS",0,22,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2005,"Indonesia","IDN","Malaysia","MYS",19153,598,0,"-",0,0,224,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2005,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",11,11,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2005,"Iraq","IRQ","Malaysia","MYS",27,17,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2005,"Liberia","LBR","Malaysia","MYS",13,172,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2005,"Sri Lanka","LKA","Malaysia","MYS",30,438,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2005,"Myanmar","MMR","Malaysia","MYS",14208,8267,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2005,"Nepal","NPL","Malaysia","MYS",10,304,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2005,"Nigeria","NGA","Malaysia","MYS",0,77,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2005,"Pakistan","PAK","Malaysia","MYS",9,58,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2005,"Philippines","PHL","Malaysia","MYS",5,5,0,"-",0,0,61314,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2005,"Russian Federation","RUS","Malaysia","MYS",7,6,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2005,"Sierra Leone","SLE","Malaysia","MYS",0,6,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2005,"Somalia","SOM","Malaysia","MYS",19,35,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2005,"Viet Nam","VNM","Malaysia","MYS",0,64,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2005,"Sudan","SDN","Malaysia","MYS",17,30,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2005,"Thailand","THA","Malaysia","MYS",87,115,0,"-",0,0,7,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2005,"Tunisia","TUN","Malaysia","MYS",5,6,0,"-",0,0,0,"TN","Africa","Northern Africa",33.886917,9.537499,4.210484,101.975766
+2005,"Zimbabwe","ZWE","Malaysia","MYS",5,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2006,"Afghanistan","AFG","Malaysia","MYS",55,30,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2006,"Algeria","DZA","Malaysia","MYS",6,0,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2006,"Burundi","BDI","Malaysia","MYS",0,5,0,"-",0,0,0,"BI","Africa","Sub-Saharan Africa",-3.373056,29.918886,4.210484,101.975766
+2006,"Bangladesh","BGD","Malaysia","MYS",0,108,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2006,"Cambodia","KHM","Malaysia","MYS",5,314,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2006,"Chad","TCD","Malaysia","MYS",0,5,0,"-",0,0,0,"TD","Africa","Sub-Saharan Africa",15.454166,18.732207,4.210484,101.975766
+2006,"China","CHN","Malaysia","MYS",16,18,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2006,"Cameroon","CMR","Malaysia","MYS",0,26,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2006,"Congo","COG","Malaysia","MYS",0,7,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2006,"Dem. Rep. of the Congo","COD","Malaysia","MYS",0,7,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2006,"Eritrea","ERI","Malaysia","MYS",0,5,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2006,"Palestinian","PSE","Malaysia","MYS",0,21,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2006,"Cote d'Ivoire","CIV","Malaysia","MYS",0,27,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2006,"India","IND","Malaysia","MYS",0,22,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2006,"Indonesia","IDN","Malaysia","MYS",15174,529,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2006,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",13,19,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2006,"Iraq","IRQ","Malaysia","MYS",51,52,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2006,"Liberia","LBR","Malaysia","MYS",15,153,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2006,"Lebanon","LBN","Malaysia","MYS",5,0,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2006,"Sri Lanka","LKA","Malaysia","MYS",42,411,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2006,"Myanmar","MMR","Malaysia","MYS",21544,6754,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2006,"Nepal","NPL","Malaysia","MYS",17,287,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2006,"Nigeria","NGA","Malaysia","MYS",0,40,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2006,"Pakistan","PAK","Malaysia","MYS",6,56,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2006,"Philippines","PHL","Malaysia","MYS",5,0,0,"-",0,0,61314,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2006,"Russian Federation","RUS","Malaysia","MYS",7,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2006,"Sierra Leone","SLE","Malaysia","MYS",0,5,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2006,"Somalia","SOM","Malaysia","MYS",47,20,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2006,"Viet Nam","VNM","Malaysia","MYS",0,75,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2006,"Sudan","SDN","Malaysia","MYS",23,16,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2006,"Thailand","THA","Malaysia","MYS",122,150,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2006,"Tunisia","TUN","Malaysia","MYS",5,6,0,"-",0,0,0,"TN","Africa","Northern Africa",33.886917,9.537499,4.210484,101.975766
+2006,"Zimbabwe","ZWE","Malaysia","MYS",0,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2007,"Afghanistan","AFG","Malaysia","MYS",68,122,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2007,"Algeria","DZA","Malaysia","MYS",6,0,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2007,"Burundi","BDI","Malaysia","MYS",5,0,0,"-",0,0,0,"BI","Africa","Sub-Saharan Africa",-3.373056,29.918886,4.210484,101.975766
+2007,"Bangladesh","BGD","Malaysia","MYS",5,33,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2007,"Cambodia","KHM","Malaysia","MYS",17,196,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2007,"Chad","TCD","Malaysia","MYS",0,5,0,"-",0,0,0,"TD","Africa","Sub-Saharan Africa",15.454166,18.732207,4.210484,101.975766
+2007,"China","CHN","Malaysia","MYS",26,18,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2007,"Cameroon","CMR","Malaysia","MYS",0,34,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2007,"Congo","COG","Malaysia","MYS",0,13,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2007,"Dem. Rep. of the Congo","COD","Malaysia","MYS",5,13,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2007,"Eritrea","ERI","Malaysia","MYS",5,0,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2007,"Ethiopia","ETH","Malaysia","MYS",0,5,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2007,"Palestinian","PSE","Malaysia","MYS",47,42,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2007,"Guinea","GIN","Malaysia","MYS",0,16,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2007,"Cote d'Ivoire","CIV","Malaysia","MYS",5,32,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2007,"India","IND","Malaysia","MYS",5,14,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2007,"Indonesia","IDN","Malaysia","MYS",2215,167,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2007,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",18,30,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2007,"Iraq","IRQ","Malaysia","MYS",148,419,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2007,"Liberia","LBR","Malaysia","MYS",23,80,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2007,"Sri Lanka","LKA","Malaysia","MYS",283,1047,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2007,"Myanmar","MMR","Malaysia","MYS",29474,3832,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2007,"Nepal","NPL","Malaysia","MYS",15,187,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2007,"Nigeria","NGA","Malaysia","MYS",0,23,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2007,"Pakistan","PAK","Malaysia","MYS",13,55,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2007,"Philippines","PHL","Malaysia","MYS",5,0,0,"-",0,0,61314,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2007,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2007,"Sierra Leone","SLE","Malaysia","MYS",0,7,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2007,"Somalia","SOM","Malaysia","MYS",93,172,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2007,"Viet Nam","VNM","Malaysia","MYS",0,60,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2007,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",40001,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2007,"Sudan","SDN","Malaysia","MYS",27,25,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2007,"Syrian Arab Rep.","SYR","Malaysia","MYS",5,0,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2007,"Thailand","THA","Malaysia","MYS",134,177,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2007,"Tunisia","TUN","Malaysia","MYS",5,0,0,"-",0,0,0,"TN","Africa","Northern Africa",33.886917,9.537499,4.210484,101.975766
+2007,"Yemen","YEM","Malaysia","MYS",0,5,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2007,"Zimbabwe","ZWE","Malaysia","MYS",0,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2008,"Afghanistan","AFG","Malaysia","MYS",62,465,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2008,"Algeria","DZA","Malaysia","MYS",0,5,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2008,"Bangladesh","BGD","Malaysia","MYS",5,12,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2008,"Bhutan","BTN","Malaysia","MYS",5,0,0,"-",0,0,0,"BT","Asia","Southern Asia",27.514162,90.433601,4.210484,101.975766
+2008,"Cambodia","KHM","Malaysia","MYS",22,42,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2008,"Chad","TCD","Malaysia","MYS",0,8,0,"-",0,0,0,"TD","Africa","Sub-Saharan Africa",15.454166,18.732207,4.210484,101.975766
+2008,"China","CHN","Malaysia","MYS",28,38,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2008,"Cameroon","CMR","Malaysia","MYS",0,20,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2008,"Congo","COG","Malaysia","MYS",0,8,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2008,"Dem. Rep. of the Congo","COD","Malaysia","MYS",5,11,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2008,"Eritrea","ERI","Malaysia","MYS",5,0,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2008,"Ethiopia","ETH","Malaysia","MYS",0,5,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2008,"Palestinian","PSE","Malaysia","MYS",105,38,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2008,"Ghana","GHA","Malaysia","MYS",0,5,0,"-",0,0,0,"GH","Africa","Sub-Saharan Africa",7.946527,-1.023194,4.210484,101.975766
+2008,"Guinea","GIN","Malaysia","MYS",0,11,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2008,"Cote d'Ivoire","CIV","Malaysia","MYS",5,18,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2008,"India","IND","Malaysia","MYS",0,7,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2008,"Indonesia","IDN","Malaysia","MYS",498,32,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2008,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",18,33,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2008,"Iraq","IRQ","Malaysia","MYS",327,203,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2008,"Kenya","KEN","Malaysia","MYS",0,5,0,"-",0,0,0,"KE","Africa","Sub-Saharan Africa",-0.023559,37.906193,4.210484,101.975766
+2008,"Liberia","LBR","Malaysia","MYS",13,13,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2008,"Sri Lanka","LKA","Malaysia","MYS",1232,957,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2008,"Myanmar","MMR","Malaysia","MYS",33781,6730,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2008,"Nepal","NPL","Malaysia","MYS",8,53,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2008,"Nigeria","NGA","Malaysia","MYS",0,9,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2008,"Pakistan","PAK","Malaysia","MYS",12,54,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2008,"Philippines","PHL","Malaysia","MYS",0,5,0,"-",0,0,61314,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2008,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2008,"Sierra Leone","SLE","Malaysia","MYS",0,7,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2008,"Somalia","SOM","Malaysia","MYS",365,282,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2008,"Viet Nam","VNM","Malaysia","MYS",5,31,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2008,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",40001,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2008,"Sudan","SDN","Malaysia","MYS",21,31,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2008,"Thailand","THA","Malaysia","MYS",136,172,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2008,"Tunisia","TUN","Malaysia","MYS",5,0,0,"-",0,0,0,"TN","Africa","Northern Africa",33.886917,9.537499,4.210484,101.975766
+2008,"Yemen","YEM","Malaysia","MYS",0,5,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2008,"Zimbabwe","ZWE","Malaysia","MYS",0,7,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2009,"Afghanistan","AFG","Malaysia","MYS",248,296,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2009,"Egypt","EGY","Malaysia","MYS",0,5,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2009,"Bangladesh","BGD","Malaysia","MYS",5,6,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2009,"Bhutan","BTN","Malaysia","MYS",5,0,0,"-",0,0,0,"BT","Asia","Southern Asia",27.514162,90.433601,4.210484,101.975766
+2009,"Cambodia","KHM","Malaysia","MYS",27,34,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2009,"Chad","TCD","Malaysia","MYS",0,7,0,"-",0,0,0,"TD","Africa","Sub-Saharan Africa",15.454166,18.732207,4.210484,101.975766
+2009,"China","CHN","Malaysia","MYS",41,56,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2009,"Cameroon","CMR","Malaysia","MYS",0,9,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2009,"Congo","COG","Malaysia","MYS",0,7,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2009,"Dem. Rep. of the Congo","COD","Malaysia","MYS",5,0,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2009,"Eritrea","ERI","Malaysia","MYS",5,0,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2009,"Palestinian","PSE","Malaysia","MYS",156,44,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2009,"Guinea","GIN","Malaysia","MYS",0,8,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2009,"Cote d'Ivoire","CIV","Malaysia","MYS",5,8,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2009,"India","IND","Malaysia","MYS",0,5,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2009,"Indonesia","IDN","Malaysia","MYS",747,6,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2009,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",17,72,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2009,"Iraq","IRQ","Malaysia","MYS",450,99,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2009,"Kenya","KEN","Malaysia","MYS",0,5,0,"-",0,0,0,"KE","Africa","Sub-Saharan Africa",-0.023559,37.906193,4.210484,101.975766
+2009,"Liberia","LBR","Malaysia","MYS",14,5,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2009,"Sri Lanka","LKA","Malaysia","MYS",2132,837,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2009,"Myanmar","MMR","Malaysia","MYS",61412,8261,0,"-",0,0,7,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2009,"Nepal","NPL","Malaysia","MYS",6,14,0,"-",0,0,5,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2009,"Nigeria","NGA","Malaysia","MYS",0,7,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2009,"Pakistan","PAK","Malaysia","MYS",13,73,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2009,"Philippines","PHL","Malaysia","MYS",0,6,0,"-",0,0,61314,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2009,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2009,"Sierra Leone","SLE","Malaysia","MYS",0,5,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2009,"Somalia","SOM","Malaysia","MYS",647,166,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2009,"Viet Nam","VNM","Malaysia","MYS",5,19,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2009,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",40001,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2009,"Sudan","SDN","Malaysia","MYS",41,29,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2009,"Thailand","THA","Malaysia","MYS",140,145,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2009,"Yemen","YEM","Malaysia","MYS",0,12,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2009,"Zimbabwe","ZWE","Malaysia","MYS",0,7,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2010,"Afghanistan","AFG","Malaysia","MYS",430,76,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2010,"Egypt","EGY","Malaysia","MYS",0,5,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2010,"Bangladesh","BGD","Malaysia","MYS",13,5,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2010,"Bhutan","BTN","Malaysia","MYS",5,0,0,"-",0,0,0,"BT","Asia","Southern Asia",27.514162,90.433601,4.210484,101.975766
+2010,"Cambodia","KHM","Malaysia","MYS",39,9,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2010,"Chad","TCD","Malaysia","MYS",0,5,0,"-",0,0,0,"TD","Africa","Sub-Saharan Africa",15.454166,18.732207,4.210484,101.975766
+2010,"China","CHN","Malaysia","MYS",54,54,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2010,"Cameroon","CMR","Malaysia","MYS",0,5,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2010,"Congo","COG","Malaysia","MYS",0,9,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2010,"Dem. Rep. of the Congo","COD","Malaysia","MYS",5,0,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2010,"Eritrea","ERI","Malaysia","MYS",6,0,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2010,"Ethiopia","ETH","Malaysia","MYS",5,0,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2010,"Palestinian","PSE","Malaysia","MYS",195,88,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2010,"Ghana","GHA","Malaysia","MYS",0,5,0,"-",0,0,0,"GH","Africa","Sub-Saharan Africa",7.946527,-1.023194,4.210484,101.975766
+2010,"Guinea","GIN","Malaysia","MYS",0,8,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2010,"Cote d'Ivoire","CIV","Malaysia","MYS",5,5,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2010,"India","IND","Malaysia","MYS",0,5,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2010,"Indonesia","IDN","Malaysia","MYS",814,6,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2010,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",53,119,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2010,"Iraq","IRQ","Malaysia","MYS",498,188,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2010,"Kenya","KEN","Malaysia","MYS",5,0,0,"-",0,0,0,"KE","Africa","Sub-Saharan Africa",-0.023559,37.906193,4.210484,101.975766
+2010,"Liberia","LBR","Malaysia","MYS",11,7,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2010,"Sri Lanka","LKA","Malaysia","MYS",2277,1715,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2010,"Myanmar","MMR","Malaysia","MYS",76120,8553,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2010,"Nepal","NPL","Malaysia","MYS",12,7,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2010,"Nigeria","NGA","Malaysia","MYS",0,19,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2010,"Pakistan","PAK","Malaysia","MYS",45,51,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2010,"Philippines","PHL","Malaysia","MYS",0,6,0,"-",0,0,80000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2010,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2010,"Sierra Leone","SLE","Malaysia","MYS",5,0,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2010,"Somalia","SOM","Malaysia","MYS",831,195,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2010,"Viet Nam","VNM","Malaysia","MYS",5,5,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2010,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",40001,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2010,"Sudan","SDN","Malaysia","MYS",58,40,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2010,"Syrian Arab Rep.","SYR","Malaysia","MYS",0,5,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2010,"Thailand","THA","Malaysia","MYS",8,102,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2010,"Uzbekistan","UZB","Malaysia","MYS",0,5,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2010,"Yemen","YEM","Malaysia","MYS",9,15,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2010,"Zimbabwe","ZWE","Malaysia","MYS",5,0,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2011,"Afghanistan","AFG","Malaysia","MYS",341,95,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2011,"Algeria","DZA","Malaysia","MYS",0,5,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2011,"Egypt","EGY","Malaysia","MYS",0,9,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2011,"Bangladesh","BGD","Malaysia","MYS",13,5,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2011,"Bhutan","BTN","Malaysia","MYS",5,0,0,"-",0,0,0,"BT","Asia","Southern Asia",27.514162,90.433601,4.210484,101.975766
+2011,"Cambodia","KHM","Malaysia","MYS",47,7,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2011,"China","CHN","Malaysia","MYS",66,19,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2011,"Congo","COG","Malaysia","MYS",0,8,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2011,"Dem. Rep. of the Congo","COD","Malaysia","MYS",5,0,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2011,"Eritrea","ERI","Malaysia","MYS",6,0,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2011,"Ethiopia","ETH","Malaysia","MYS",5,0,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2011,"Palestinian","PSE","Malaysia","MYS",247,108,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2011,"Guinea","GIN","Malaysia","MYS",0,6,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2011,"Cote d'Ivoire","CIV","Malaysia","MYS",5,5,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2011,"India","IND","Malaysia","MYS",0,5,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2011,"Indonesia","IDN","Malaysia","MYS",858,11,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2011,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",90,206,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2011,"Iraq","IRQ","Malaysia","MYS",545,221,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2011,"Jordan","JOR","Malaysia","MYS",0,5,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2011,"Kenya","KEN","Malaysia","MYS",5,0,0,"-",0,0,0,"KE","Africa","Sub-Saharan Africa",-0.023559,37.906193,4.210484,101.975766
+2011,"Liberia","LBR","Malaysia","MYS",9,10,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2011,"Lebanon","LBN","Malaysia","MYS",0,7,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2011,"Sri Lanka","LKA","Malaysia","MYS",2294,2150,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2011,"Mali","MLI","Malaysia","MYS",0,5,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2011,"Myanmar","MMR","Malaysia","MYS",81146,7348,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2011,"Nepal","NPL","Malaysia","MYS",7,6,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2011,"Nigeria","NGA","Malaysia","MYS",0,13,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2011,"Pakistan","PAK","Malaysia","MYS",48,161,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2011,"Philippines","PHL","Malaysia","MYS",0,7,0,"-",0,0,80000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2011,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2011,"Sierra Leone","SLE","Malaysia","MYS",5,0,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2011,"Somalia","SOM","Malaysia","MYS",812,224,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2011,"Viet Nam","VNM","Malaysia","MYS",5,5,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2011,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",40001,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2011,"Sudan","SDN","Malaysia","MYS",70,61,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2011,"Syrian Arab Rep.","SYR","Malaysia","MYS",5,8,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2011,"Thailand","THA","Malaysia","MYS",9,105,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2011,"Uzbekistan","UZB","Malaysia","MYS",0,10,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2011,"Yemen","YEM","Malaysia","MYS",18,83,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2011,"Zimbabwe","ZWE","Malaysia","MYS",5,0,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2012,"Afghanistan","AFG","Malaysia","MYS",349,115,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2012,"Algeria","DZA","Malaysia","MYS",0,5,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2012,"Egypt","EGY","Malaysia","MYS",0,19,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2012,"Bangladesh","BGD","Malaysia","MYS",16,0,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2012,"Bhutan","BTN","Malaysia","MYS",5,0,0,"-",0,0,0,"BT","Asia","Southern Asia",27.514162,90.433601,4.210484,101.975766
+2012,"Cambodia","KHM","Malaysia","MYS",58,0,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2012,"China","CHN","Malaysia","MYS",82,5,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2012,"Congo","COG","Malaysia","MYS",0,8,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2012,"Dem. Rep. of the Congo","COD","Malaysia","MYS",6,5,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2012,"Eritrea","ERI","Malaysia","MYS",7,0,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2012,"Ethiopia","ETH","Malaysia","MYS",5,0,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2012,"Palestinian","PSE","Malaysia","MYS",235,146,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2012,"Guinea","GIN","Malaysia","MYS",0,5,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2012,"India","IND","Malaysia","MYS",0,6,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2012,"Indonesia","IDN","Malaysia","MYS",901,0,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2012,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",148,294,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2012,"Iraq","IRQ","Malaysia","MYS",475,235,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2012,"Jordan","JOR","Malaysia","MYS",5,0,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2012,"Kenya","KEN","Malaysia","MYS",5,0,0,"-",0,0,0,"KE","Africa","Sub-Saharan Africa",-0.023559,37.906193,4.210484,101.975766
+2012,"Liberia","LBR","Malaysia","MYS",10,5,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2012,"Lebanon","LBN","Malaysia","MYS",0,5,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2012,"Sri Lanka","LKA","Malaysia","MYS",2023,1910,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2012,"Mali","MLI","Malaysia","MYS",0,5,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2012,"Myanmar","MMR","Malaysia","MYS",84671,7764,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2012,"Nepal","NPL","Malaysia","MYS",7,7,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2012,"Nigeria","NGA","Malaysia","MYS",0,11,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2012,"Pakistan","PAK","Malaysia","MYS",96,315,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2012,"Philippines","PHL","Malaysia","MYS",0,0,0,"-",0,0,80000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2012,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2012,"Sierra Leone","SLE","Malaysia","MYS",5,0,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2012,"Somalia","SOM","Malaysia","MYS",929,265,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2012,"Viet Nam","VNM","Malaysia","MYS",9,0,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2012,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",40001,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2012,"Sudan","SDN","Malaysia","MYS",78,77,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2012,"Syrian Arab Rep.","SYR","Malaysia","MYS",5,83,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2012,"Thailand","THA","Malaysia","MYS",12,100,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2012,"Uzbekistan","UZB","Malaysia","MYS",0,10,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2012,"Yemen","YEM","Malaysia","MYS",26,223,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2013,"Afghanistan","AFG","Malaysia","MYS",187,138,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2013,"Egypt","EGY","Malaysia","MYS",0,22,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2013,"Bangladesh","BGD","Malaysia","MYS",16,5,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2013,"Cambodia","KHM","Malaysia","MYS",61,0,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2013,"China","CHN","Malaysia","MYS",59,7,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2013,"Congo","COG","Malaysia","MYS",0,5,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2013,"Dem. Rep. of the Congo","COD","Malaysia","MYS",10,0,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2013,"Eritrea","ERI","Malaysia","MYS",5,0,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2013,"Ethiopia","ETH","Malaysia","MYS",5,0,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2013,"Palestinian","PSE","Malaysia","MYS",241,134,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2013,"Guinea","GIN","Malaysia","MYS",0,6,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2013,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2013,"India","IND","Malaysia","MYS",0,5,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2013,"Indonesia","IDN","Malaysia","MYS",714,12,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2013,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",197,360,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2013,"Iraq","IRQ","Malaysia","MYS",530,264,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2013,"Jordan","JOR","Malaysia","MYS",5,0,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2013,"Kenya","KEN","Malaysia","MYS",5,0,0,"-",0,0,0,"KE","Africa","Sub-Saharan Africa",-0.023559,37.906193,4.210484,101.975766
+2013,"Liberia","LBR","Malaysia","MYS",14,5,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2013,"Lebanon","LBN","Malaysia","MYS",0,6,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2013,"Sri Lanka","LKA","Malaysia","MYS",1810,1906,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2013,"Mali","MLI","Malaysia","MYS",5,10,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2013,"Myanmar","MMR","Malaysia","MYS",92287,38282,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2013,"Nepal","NPL","Malaysia","MYS",5,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2013,"Nigeria","NGA","Malaysia","MYS",0,5,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2013,"Pakistan","PAK","Malaysia","MYS",152,503,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2013,"Philippines","PHL","Malaysia","MYS",7,0,0,"-",0,0,80000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2013,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2013,"Sierra Leone","SLE","Malaysia","MYS",5,9,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2013,"Somalia","SOM","Malaysia","MYS",930,193,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2013,"Viet Nam","VNM","Malaysia","MYS",10,0,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2013,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",40000,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2013,"Sudan","SDN","Malaysia","MYS",85,55,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2013,"Syrian Arab Rep.","SYR","Malaysia","MYS",101,720,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2013,"Thailand","THA","Malaysia","MYS",10,78,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2013,"Uzbekistan","UZB","Malaysia","MYS",0,10,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2013,"Yemen","YEM","Malaysia","MYS",36,267,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2014,"Afghanistan","AFG","Malaysia","MYS",184,212,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2014,"Egypt","EGY","Malaysia","MYS",0,24,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2014,"Bangladesh","BGD","Malaysia","MYS",13,10,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2014,"Cambodia","KHM","Malaysia","MYS",52,0,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2014,"Central African Rep.","CAF","Malaysia","MYS",0,5,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2014,"China","CHN","Malaysia","MYS",51,17,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2014,"Congo","COG","Malaysia","MYS",0,5,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2014,"Dem. Rep. of the Congo","COD","Malaysia","MYS",10,0,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2014,"Eritrea","ERI","Malaysia","MYS",5,5,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2014,"Ethiopia","ETH","Malaysia","MYS",5,5,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2014,"Fiji","FJI","Malaysia","MYS",5,0,0,"-",0,0,0,"FJ","Oceania","Melanesia",-16.578193,179.414413,4.210484,101.975766
+2014,"Palestinian","PSE","Malaysia","MYS",287,161,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2014,"Guinea","GIN","Malaysia","MYS",0,5,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2014,"India","IND","Malaysia","MYS",0,5,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2014,"Indonesia","IDN","Malaysia","MYS",758,29,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2014,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",260,313,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2014,"Iraq","IRQ","Malaysia","MYS",563,295,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2014,"Jordan","JOR","Malaysia","MYS",5,0,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2014,"Liberia","LBR","Malaysia","MYS",8,10,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2014,"Lebanon","LBN","Malaysia","MYS",5,0,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2014,"Sri Lanka","LKA","Malaysia","MYS",1587,2326,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2014,"Mali","MLI","Malaysia","MYS",5,13,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2014,"Myanmar","MMR","Malaysia","MYS",93866,45743,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2014,"Nigeria","NGA","Malaysia","MYS",5,0,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2014,"Pakistan","PAK","Malaysia","MYS",235,860,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2014,"Philippines","PHL","Malaysia","MYS",5,0,0,"-",0,0,80000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2014,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2014,"Saudi Arabia","SAU","Malaysia","MYS",0,5,0,"-",0,0,0,"SA","Asia","Western Asia",23.885942,45.079162,4.210484,101.975766
+2014,"Sierra Leone","SLE","Malaysia","MYS",5,10,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2014,"Somalia","SOM","Malaysia","MYS",850,246,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2014,"Viet Nam","VNM","Malaysia","MYS",7,0,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2014,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",40000,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2014,"Sudan","SDN","Malaysia","MYS",80,58,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2014,"Syrian Arab Rep.","SYR","Malaysia","MYS",447,530,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2014,"Thailand","THA","Malaysia","MYS",9,13,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2014,"Uzbekistan","UZB","Malaysia","MYS",0,11,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2014,"Yemen","YEM","Malaysia","MYS",45,301,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2015,"Afghanistan","AFG","Malaysia","MYS",173,336,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2015,"Egypt","EGY","Malaysia","MYS",0,26,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2015,"Bangladesh","BGD","Malaysia","MYS",15,17,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2015,"Cambodia","KHM","Malaysia","MYS",57,5,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2015,"Central African Rep.","CAF","Malaysia","MYS",5,0,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2015,"China","CHN","Malaysia","MYS",40,5,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2015,"Cameroon","CMR","Malaysia","MYS",0,5,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2015,"Dem. Rep. of the Congo","COD","Malaysia","MYS",9,0,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2015,"Eritrea","ERI","Malaysia","MYS",5,7,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2015,"Ethiopia","ETH","Malaysia","MYS",5,5,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2015,"Fiji","FJI","Malaysia","MYS",5,0,0,"-",0,0,0,"FJ","Oceania","Melanesia",-16.578193,179.414413,4.210484,101.975766
+2015,"Palestinian","PSE","Malaysia","MYS",307,333,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2015,"Guinea","GIN","Malaysia","MYS",0,5,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2015,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2015,"India","IND","Malaysia","MYS",0,6,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2015,"Indonesia","IDN","Malaysia","MYS",782,35,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2015,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",247,237,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2015,"Iraq","IRQ","Malaysia","MYS",591,653,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2015,"Jordan","JOR","Malaysia","MYS",5,5,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2015,"Liberia","LBR","Malaysia","MYS",10,0,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2015,"Libya","LBY","Malaysia","MYS",0,5,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2015,"Lebanon","LBN","Malaysia","MYS",5,0,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2015,"Sri Lanka","LKA","Malaysia","MYS",1545,1528,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2015,"Mali","MLI","Malaysia","MYS",5,5,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2015,"Myanmar","MMR","Malaysia","MYS",88637,53598,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2015,"Nepal","NPL","Malaysia","MYS",5,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2015,"Nigeria","NGA","Malaysia","MYS",5,0,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2015,"Pakistan","PAK","Malaysia","MYS",237,1178,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2015,"Philippines","PHL","Malaysia","MYS",5,5,0,"-",0,0,80000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2015,"Russian Federation","RUS","Malaysia","MYS",5,8,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2015,"Singapore","SGP","Malaysia","MYS",0,5,0,"-",0,0,0,"SG","Asia","South-eastern Asia",1.352083,103.819836,4.210484,101.975766
+2015,"Sierra Leone","SLE","Malaysia","MYS",5,5,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2015,"Somalia","SOM","Malaysia","MYS",835,563,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2015,"South Sudan","SSD","Malaysia","MYS",5,0,0,"-",0,0,0,"SS","Africa","Sub-Saharan Africa",7.8627,29.6947,4.210484,101.975766
+2015,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",11689,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2015,"Sudan","SDN","Malaysia","MYS",54,48,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2015,"Syrian Arab Rep.","SYR","Malaysia","MYS",473,829,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2015,"Thailand","THA","Malaysia","MYS",16,13,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2015,"Uzbekistan","UZB","Malaysia","MYS",0,17,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2015,"Yemen","YEM","Malaysia","MYS",55,906,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2015,"Zimbabwe","ZWE","Malaysia","MYS",5,0,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2016,"Afghanistan","AFG","Malaysia","MYS",252,454,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2016,"Algeria","DZA","Malaysia","MYS",0,5,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2016,"Egypt","EGY","Malaysia","MYS",5,12,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2016,"Bangladesh","BGD","Malaysia","MYS",20,14,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2016,"Cambodia","KHM","Malaysia","MYS",60,19,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2016,"Central African Rep.","CAF","Malaysia","MYS",0,5,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2016,"China","CHN","Malaysia","MYS",28,19,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2016,"Eritrea","ERI","Malaysia","MYS",5,5,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2016,"Ethiopia","ETH","Malaysia","MYS",5,8,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2016,"Palestinian","PSE","Malaysia","MYS",245,353,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2016,"Guinea","GIN","Malaysia","MYS",0,5,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2016,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2016,"India","IND","Malaysia","MYS",0,5,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2016,"Indonesia","IDN","Malaysia","MYS",779,181,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2016,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",220,225,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2016,"Iraq","IRQ","Malaysia","MYS",472,740,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2016,"Jordan","JOR","Malaysia","MYS",0,5,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2016,"Liberia","LBR","Malaysia","MYS",10,13,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2016,"Libya","LBY","Malaysia","MYS",6,16,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2016,"Lebanon","LBN","Malaysia","MYS",5,5,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2016,"Sri Lanka","LKA","Malaysia","MYS",1120,1090,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2016,"Mali","MLI","Malaysia","MYS",5,11,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2016,"Myanmar","MMR","Malaysia","MYS",87036,48352,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2016,"Nepal","NPL","Malaysia","MYS",5,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2016,"Nigeria","NGA","Malaysia","MYS",5,11,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2016,"Pakistan","PAK","Malaysia","MYS",617,1657,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2016,"Philippines","PHL","Malaysia","MYS",15,5,0,"-",0,0,80000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2016,"Russian Federation","RUS","Malaysia","MYS",5,6,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2016,"Saudi Arabia","SAU","Malaysia","MYS",5,0,0,"-",0,0,0,"SA","Asia","Western Asia",23.885942,45.079162,4.210484,101.975766
+2016,"Sierra Leone","SLE","Malaysia","MYS",5,8,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2016,"Somalia","SOM","Malaysia","MYS",729,781,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2016,"South Sudan","SSD","Malaysia","MYS",5,5,0,"-",0,0,0,"SS","Africa","Sub-Saharan Africa",7.8627,29.6947,4.210484,101.975766
+2016,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",10931,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2016,"Sudan","SDN","Malaysia","MYS",56,112,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2016,"Syrian Arab Rep.","SYR","Malaysia","MYS",458,986,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2016,"Thailand","THA","Malaysia","MYS",17,16,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2016,"Tunisia","TUN","Malaysia","MYS",0,5,0,"-",0,0,0,"TN","Africa","Northern Africa",33.886917,9.537499,4.210484,101.975766
+2016,"Uganda","UGA","Malaysia","MYS",0,5,0,"-",0,0,0,"UG","Africa","Sub-Saharan Africa",1.373333,32.290275,4.210484,101.975766
+2016,"Uzbekistan","UZB","Malaysia","MYS",0,11,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2016,"Yemen","YEM","Malaysia","MYS",51,1163,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2016,"Zimbabwe","ZWE","Malaysia","MYS",5,0,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2017,"Afghanistan","AFG","Malaysia","MYS",389,798,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2017,"Algeria","DZA","Malaysia","MYS",0,5,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2017,"Egypt","EGY","Malaysia","MYS",5,19,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2017,"Bangladesh","BGD","Malaysia","MYS",27,15,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2017,"Cambodia","KHM","Malaysia","MYS",71,0,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2017,"Central African Rep.","CAF","Malaysia","MYS",0,6,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2017,"China","CHN","Malaysia","MYS",15,15,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2017,"Dem. Rep. of the Congo","COD","Malaysia","MYS",0,6,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2017,"Eritrea","ERI","Malaysia","MYS",5,11,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2017,"Ethiopia","ETH","Malaysia","MYS",8,5,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2017,"Palestinian","PSE","Malaysia","MYS",236,482,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2017,"United Kingdom of Great Britain and Northern Ireland","GBR","Malaysia","MYS",5,0,0,"-",0,0,0,"GB","Europe","Northern Europe",55.378051,-3.435973,4.210484,101.975766
+2017,"Guinea","GIN","Malaysia","MYS",0,13,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2017,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2017,"India","IND","Malaysia","MYS",0,7,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2017,"Indonesia","IDN","Malaysia","MYS",883,15,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2017,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",187,200,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2017,"Iraq","IRQ","Malaysia","MYS",452,966,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2017,"Jordan","JOR","Malaysia","MYS",5,5,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2017,"Liberia","LBR","Malaysia","MYS",10,13,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2017,"Libya","LBY","Malaysia","MYS",0,25,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2017,"Lebanon","LBN","Malaysia","MYS",5,0,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2017,"Sri Lanka","LKA","Malaysia","MYS",974,1065,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2017,"Mali","MLI","Malaysia","MYS",5,11,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2017,"Myanmar","MMR","Malaysia","MYS",98041,33656,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2017,"Nepal","NPL","Malaysia","MYS",10,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2017,"Nigeria","NGA","Malaysia","MYS",5,13,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2017,"Pakistan","PAK","Malaysia","MYS",1090,4269,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2017,"Philippines","PHL","Malaysia","MYS",20,0,0,"-",0,0,80000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2017,"Russian Federation","RUS","Malaysia","MYS",5,5,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2017,"Sierra Leone","SLE","Malaysia","MYS",5,21,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2017,"Somalia","SOM","Malaysia","MYS",816,1422,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2017,"South Sudan","SSD","Malaysia","MYS",5,8,0,"-",0,0,0,"SS","Africa","Sub-Saharan Africa",7.8627,29.6947,4.210484,101.975766
+2017,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",10068,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2017,"Sudan","SDN","Malaysia","MYS",68,163,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2017,"Syrian Arab Rep.","SYR","Malaysia","MYS",372,1937,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2017,"Thailand","THA","Malaysia","MYS",24,5,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2017,"Togo","TGO","Malaysia","MYS",0,5,0,"-",0,0,0,"TG","Africa","Sub-Saharan Africa",8.619543,0.824782,4.210484,101.975766
+2017,"Türkiye","TUR","Malaysia","MYS",0,6,0,"-",0,0,0,"TR","Asia","Western Asia",38.963745,35.243322,4.210484,101.975766
+2017,"United Arab Emirates","ARE","Malaysia","MYS",0,5,0,"-",0,0,0,"AE","Asia","Western Asia",23.424076,53.847818,4.210484,101.975766
+2017,"Uganda","UGA","Malaysia","MYS",0,11,0,"-",0,0,0,"UG","Africa","Sub-Saharan Africa",1.373333,32.290275,4.210484,101.975766
+2017,"United States of America","USA","Malaysia","MYS",8,0,0,"-",0,0,0,"US","Americas","Northern America",37.09024,-95.712891,4.210484,101.975766
+2017,"Uzbekistan","UZB","Malaysia","MYS",0,14,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2017,"Yemen","YEM","Malaysia","MYS",76,2287,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2017,"Zimbabwe","ZWE","Malaysia","MYS",5,0,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2018,"Afghanistan","AFG","Malaysia","MYS",647,1070,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2018,"Egypt","EGY","Malaysia","MYS",8,23,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2018,"Austria","AUT","Malaysia","MYS",5,0,0,"-",0,0,0,"AT","Europe","Western Europe",47.516231,14.550072,4.210484,101.975766
+2018,"Bangladesh","BGD","Malaysia","MYS",31,10,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2018,"Cambodia","KHM","Malaysia","MYS",72,0,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2018,"Central African Rep.","CAF","Malaysia","MYS",0,10,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2018,"China","CHN","Malaysia","MYS",27,14,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2018,"Cameroon","CMR","Malaysia","MYS",0,6,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2018,"Congo","COG","Malaysia","MYS",0,5,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2018,"Dem. Rep. of the Congo","COD","Malaysia","MYS",0,7,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2018,"Eritrea","ERI","Malaysia","MYS",5,10,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2018,"Ethiopia","ETH","Malaysia","MYS",10,5,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2018,"Palestinian","PSE","Malaysia","MYS",226,531,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2018,"United Kingdom of Great Britain and Northern Ireland","GBR","Malaysia","MYS",5,0,0,"-",0,0,0,"GB","Europe","Northern Europe",55.378051,-3.435973,4.210484,101.975766
+2018,"Guinea","GIN","Malaysia","MYS",0,11,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2018,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2018,"India","IND","Malaysia","MYS",0,5,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2018,"Indonesia","IDN","Malaysia","MYS",926,17,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2018,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",210,170,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2018,"Iraq","IRQ","Malaysia","MYS",458,966,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2018,"Jordan","JOR","Malaysia","MYS",10,5,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2018,"Lao People's Dem. Rep.","LAO","Malaysia","MYS",0,5,0,"-",0,0,0,"LA","Asia","South-eastern Asia",19.85627,102.495496,4.210484,101.975766
+2018,"Liberia","LBR","Malaysia","MYS",10,13,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2018,"Libya","LBY","Malaysia","MYS",5,25,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2018,"Lebanon","LBN","Malaysia","MYS",5,0,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2018,"Sri Lanka","LKA","Malaysia","MYS",942,797,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2018,"Mali","MLI","Malaysia","MYS",5,0,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2018,"Myanmar","MMR","Malaysia","MYS",114227,26448,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2018,"Nepal","NPL","Malaysia","MYS",10,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2018,"Nigeria","NGA","Malaysia","MYS",5,10,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2018,"Pakistan","PAK","Malaysia","MYS",1638,4310,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2018,"Philippines","PHL","Malaysia","MYS",20,0,0,"-",0,0,80000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2018,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2018,"Sierra Leone","SLE","Malaysia","MYS",5,42,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2018,"Somalia","SOM","Malaysia","MYS",1045,1872,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2018,"South Sudan","SSD","Malaysia","MYS",11,27,0,"-",0,0,0,"SS","Africa","Sub-Saharan Africa",7.8627,29.6947,4.210484,101.975766
+2018,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",9631,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2018,"Sudan","SDN","Malaysia","MYS",102,171,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2018,"Syrian Arab Rep.","SYR","Malaysia","MYS",421,2406,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2018,"Thailand","THA","Malaysia","MYS",28,5,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2018,"Togo","TGO","Malaysia","MYS",0,5,0,"-",0,0,0,"TG","Africa","Sub-Saharan Africa",8.619543,0.824782,4.210484,101.975766
+2018,"Türkiye","TUR","Malaysia","MYS",0,6,0,"-",0,0,0,"TR","Asia","Western Asia",38.963745,35.243322,4.210484,101.975766
+2018,"United Arab Emirates","ARE","Malaysia","MYS",0,5,0,"-",0,0,0,"AE","Asia","Western Asia",23.424076,53.847818,4.210484,101.975766
+2018,"Uganda","UGA","Malaysia","MYS",0,6,0,"-",0,0,0,"UG","Africa","Sub-Saharan Africa",1.373333,32.290275,4.210484,101.975766
+2018,"United States of America","USA","Malaysia","MYS",8,0,0,"-",0,0,0,"US","Americas","Northern America",37.09024,-95.712891,4.210484,101.975766
+2018,"Uzbekistan","UZB","Malaysia","MYS",0,9,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2018,"Yemen","YEM","Malaysia","MYS",163,2769,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2018,"Zimbabwe","ZWE","Malaysia","MYS",5,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2019,"Afghanistan","AFG","Malaysia","MYS",1352,1126,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2019,"Algeria","DZA","Malaysia","MYS",0,7,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2019,"Egypt","EGY","Malaysia","MYS",15,79,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2019,"Australia","AUS","Malaysia","MYS",5,0,0,"-",0,0,0,"AU","Oceania","Australia and New Zealand",-25.274398,133.775136,4.210484,101.975766
+2019,"Bangladesh","BGD","Malaysia","MYS",39,17,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2019,"Cambodia","KHM","Malaysia","MYS",80,9,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2019,"Central African Rep.","CAF","Malaysia","MYS",5,0,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2019,"China","CHN","Malaysia","MYS",44,7,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2019,"Cameroon","CMR","Malaysia","MYS",5,21,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2019,"Congo","COG","Malaysia","MYS",0,5,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2019,"Dem. Rep. of the Congo","COD","Malaysia","MYS",0,7,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2019,"Eritrea","ERI","Malaysia","MYS",7,20,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2019,"Ethiopia","ETH","Malaysia","MYS",11,11,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2019,"Palestinian","PSE","Malaysia","MYS",226,582,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2019,"United Kingdom of Great Britain and Northern Ireland","GBR","Malaysia","MYS",6,0,0,"-",0,0,0,"GB","Europe","Northern Europe",55.378051,-3.435973,4.210484,101.975766
+2019,"Guinea","GIN","Malaysia","MYS",5,27,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2019,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2019,"India","IND","Malaysia","MYS",5,11,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2019,"Indonesia","IDN","Malaysia","MYS",996,8,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2019,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",246,198,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2019,"Iraq","IRQ","Malaysia","MYS",435,876,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2019,"Jordan","JOR","Malaysia","MYS",0,6,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2019,"Lao People's Dem. Rep.","LAO","Malaysia","MYS",0,5,0,"-",0,0,0,"LA","Asia","South-eastern Asia",19.85627,102.495496,4.210484,101.975766
+2019,"Liberia","LBR","Malaysia","MYS",19,9,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2019,"Libya","LBY","Malaysia","MYS",10,21,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2019,"Lebanon","LBN","Malaysia","MYS",5,7,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2019,"Sri Lanka","LKA","Malaysia","MYS",857,1046,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2019,"Mali","MLI","Malaysia","MYS",5,0,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2019,"Morocco","MAR","Malaysia","MYS",5,0,0,"-",0,0,0,"MA","Africa","Northern Africa",31.791702,-7.09262,4.210484,101.975766
+2019,"Myanmar","MMR","Malaysia","MYS",119231,34546,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2019,"Nepal","NPL","Malaysia","MYS",11,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2019,"Nigeria","NGA","Malaysia","MYS",5,32,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2019,"Pakistan","PAK","Malaysia","MYS",3033,3574,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2019,"Philippines","PHL","Malaysia","MYS",24,0,0,"-",0,0,55000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2019,"Russian Federation","RUS","Malaysia","MYS",6,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2019,"Sierra Leone","SLE","Malaysia","MYS",11,43,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2019,"Somalia","SOM","Malaysia","MYS",1540,1754,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2019,"Viet Nam","VNM","Malaysia","MYS",5,0,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2019,"South Sudan","SSD","Malaysia","MYS",13,43,0,"-",0,0,0,"SS","Africa","Sub-Saharan Africa",7.8627,29.6947,4.210484,101.975766
+2019,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",108332,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2019,"Sudan","SDN","Malaysia","MYS",158,156,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2019,"Syrian Arab Rep.","SYR","Malaysia","MYS",425,2861,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2019,"Thailand","THA","Malaysia","MYS",29,22,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2019,"Uganda","UGA","Malaysia","MYS",5,8,0,"-",0,0,0,"UG","Africa","Sub-Saharan Africa",1.373333,32.290275,4.210484,101.975766
+2019,"United States of America","USA","Malaysia","MYS",7,0,0,"-",0,0,0,"US","Americas","Northern America",37.09024,-95.712891,4.210484,101.975766
+2019,"Uzbekistan","UZB","Malaysia","MYS",0,8,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2019,"Yemen","YEM","Malaysia","MYS",206,3462,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2019,"Zimbabwe","ZWE","Malaysia","MYS",5,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2020,"Afghanistan","AFG","Malaysia","MYS",1517,1153,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2020,"Algeria","DZA","Malaysia","MYS",0,8,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2020,"Egypt","EGY","Malaysia","MYS",14,84,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2020,"Australia","AUS","Malaysia","MYS",5,0,0,"-",0,0,0,"AU","Oceania","Australia and New Zealand",-25.274398,133.775136,4.210484,101.975766
+2020,"Bangladesh","BGD","Malaysia","MYS",38,15,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2020,"Cambodia","KHM","Malaysia","MYS",77,11,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2020,"Central African Rep.","CAF","Malaysia","MYS",5,0,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2020,"China","CHN","Malaysia","MYS",44,5,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2020,"Cameroon","CMR","Malaysia","MYS",5,23,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2020,"Congo","COG","Malaysia","MYS",0,5,0,"-",0,0,0,"CG","Africa","Sub-Saharan Africa",-0.228021,15.827659,4.210484,101.975766
+2020,"Dem. Rep. of the Congo","COD","Malaysia","MYS",0,7,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2020,"Eritrea","ERI","Malaysia","MYS",9,19,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2020,"Ethiopia","ETH","Malaysia","MYS",12,11,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2020,"Palestinian","PSE","Malaysia","MYS",216,540,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2020,"United Kingdom of Great Britain and Northern Ireland","GBR","Malaysia","MYS",6,0,0,"-",0,0,0,"GB","Europe","Northern Europe",55.378051,-3.435973,4.210484,101.975766
+2020,"Guinea","GIN","Malaysia","MYS",5,27,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2020,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2020,"India","IND","Malaysia","MYS",5,12,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2020,"Indonesia","IDN","Malaysia","MYS",985,5,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2020,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",253,188,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2020,"Iraq","IRQ","Malaysia","MYS",411,801,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2020,"Jordan","JOR","Malaysia","MYS",5,5,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2020,"Liberia","LBR","Malaysia","MYS",20,9,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2020,"Libya","LBY","Malaysia","MYS",11,18,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2020,"Lebanon","LBN","Malaysia","MYS",5,6,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2020,"Sri Lanka","LKA","Malaysia","MYS",794,947,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2020,"Mali","MLI","Malaysia","MYS",5,0,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2020,"Morocco","MAR","Malaysia","MYS",5,0,0,"-",0,0,0,"MA","Africa","Northern Africa",31.791702,-7.09262,4.210484,101.975766
+2020,"Myanmar","MMR","Malaysia","MYS",119578,34459,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2020,"Nepal","NPL","Malaysia","MYS",11,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2020,"Nigeria","NGA","Malaysia","MYS",5,36,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2020,"Pakistan","PAK","Malaysia","MYS",3166,3453,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2020,"Philippines","PHL","Malaysia","MYS",20,0,0,"-",0,0,0,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2020,"Russian Federation","RUS","Malaysia","MYS",6,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2020,"Sierra Leone","SLE","Malaysia","MYS",11,37,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2020,"Somalia","SOM","Malaysia","MYS",1786,1445,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2020,"Viet Nam","VNM","Malaysia","MYS",5,0,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2020,"South Sudan","SSD","Malaysia","MYS",16,38,0,"-",0,0,0,"SS","Africa","Sub-Saharan Africa",7.8627,29.6947,4.210484,101.975766
+2020,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",111298,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2020,"Sudan","SDN","Malaysia","MYS",163,140,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2020,"Syrian Arab Rep.","SYR","Malaysia","MYS",407,2850,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2020,"Thailand","THA","Malaysia","MYS",27,23,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2020,"Uganda","UGA","Malaysia","MYS",0,6,0,"-",0,0,0,"UG","Africa","Sub-Saharan Africa",1.373333,32.290275,4.210484,101.975766
+2020,"United States of America","USA","Malaysia","MYS",7,0,0,"-",0,0,0,"US","Americas","Northern America",37.09024,-95.712891,4.210484,101.975766
+2020,"Uzbekistan","UZB","Malaysia","MYS",0,8,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2020,"Yemen","YEM","Malaysia","MYS",232,3423,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2020,"Zimbabwe","ZWE","Malaysia","MYS",5,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2021,"Afghanistan","AFG","Malaysia","MYS",1604,1199,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2021,"Algeria","DZA","Malaysia","MYS",0,10,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2021,"Egypt","EGY","Malaysia","MYS",18,83,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2021,"Australia","AUS","Malaysia","MYS",5,0,0,"-",0,0,0,"AU","Oceania","Australia and New Zealand",-25.274398,133.775136,4.210484,101.975766
+2021,"Bangladesh","BGD","Malaysia","MYS",37,17,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2021,"Cambodia","KHM","Malaysia","MYS",77,10,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2021,"Central African Rep.","CAF","Malaysia","MYS",5,0,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2021,"China","CHN","Malaysia","MYS",46,0,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2021,"Cameroon","CMR","Malaysia","MYS",10,22,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2021,"Dem. Rep. of the Congo","COD","Malaysia","MYS",10,0,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2021,"Eritrea","ERI","Malaysia","MYS",25,15,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2021,"Ethiopia","ETH","Malaysia","MYS",12,11,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2021,"Palestinian","PSE","Malaysia","MYS",249,526,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2021,"United Kingdom of Great Britain and Northern Ireland","GBR","Malaysia","MYS",6,0,0,"-",0,0,0,"GB","Europe","Northern Europe",55.378051,-3.435973,4.210484,101.975766
+2021,"Guinea","GIN","Malaysia","MYS",7,25,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2021,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2021,"India","IND","Malaysia","MYS",5,19,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2021,"Indonesia","IDN","Malaysia","MYS",946,35,0,"-",0,0,0,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2021,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",274,169,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2021,"Iraq","IRQ","Malaysia","MYS",420,788,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2021,"Jordan","JOR","Malaysia","MYS",10,0,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2021,"Liberia","LBR","Malaysia","MYS",21,6,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2021,"Libya","LBY","Malaysia","MYS",11,20,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2021,"Lebanon","LBN","Malaysia","MYS",5,5,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2021,"Sri Lanka","LKA","Malaysia","MYS",795,895,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2021,"Mali","MLI","Malaysia","MYS",5,0,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2021,"Morocco","MAR","Malaysia","MYS",5,0,0,"-",0,0,0,"MA","Africa","Northern Africa",31.791702,-7.09262,4.210484,101.975766
+2021,"Myanmar","MMR","Malaysia","MYS",120598,34807,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2021,"Nepal","NPL","Malaysia","MYS",11,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2021,"Nigeria","NGA","Malaysia","MYS",5,39,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2021,"Pakistan","PAK","Malaysia","MYS",3632,3116,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2021,"Philippines","PHL","Malaysia","MYS",20,0,0,"-",0,0,55000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2021,"Russian Federation","RUS","Malaysia","MYS",6,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2021,"Sierra Leone","SLE","Malaysia","MYS",9,36,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2021,"Somalia","SOM","Malaysia","MYS",2168,1047,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2021,"Viet Nam","VNM","Malaysia","MYS",5,0,0,"-",0,0,0,"VN","Asia","South-eastern Asia",14.058324,108.277199,4.210484,101.975766
+2021,"South Sudan","SSD","Malaysia","MYS",24,40,0,"-",0,0,0,"SS","Africa","Sub-Saharan Africa",7.8627,29.6947,4.210484,101.975766
+2021,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",112420,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2021,"Sudan","SDN","Malaysia","MYS",182,127,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2021,"Syrian Arab Rep.","SYR","Malaysia","MYS",449,2858,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2021,"Thailand","THA","Malaysia","MYS",26,24,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2021,"Uganda","UGA","Malaysia","MYS",5,11,0,"-",0,0,0,"UG","Africa","Sub-Saharan Africa",1.373333,32.290275,4.210484,101.975766
+2021,"United States of America","USA","Malaysia","MYS",7,0,0,"-",0,0,0,"US","Americas","Northern America",37.09024,-95.712891,4.210484,101.975766
+2021,"Uzbekistan","UZB","Malaysia","MYS",0,7,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2021,"Yemen","YEM","Malaysia","MYS",321,3400,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2021,"Zimbabwe","ZWE","Malaysia","MYS",5,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2022,"Afghanistan","AFG","Malaysia","MYS",1860,1532,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2022,"Algeria","DZA","Malaysia","MYS",0,16,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2022,"Egypt","EGY","Malaysia","MYS",16,80,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2022,"Bangladesh","BGD","Malaysia","MYS",39,13,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2022,"Cambodia","KHM","Malaysia","MYS",72,14,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2022,"Central African Rep.","CAF","Malaysia","MYS",5,0,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2022,"China","CHN","Malaysia","MYS",38,16,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2022,"Cameroon","CMR","Malaysia","MYS",12,18,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2022,"Dem. Rep. of the Congo","COD","Malaysia","MYS",9,0,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2022,"Eritrea","ERI","Malaysia","MYS",32,0,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2022,"Ethiopia","ETH","Malaysia","MYS",10,12,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2022,"Palestinian","PSE","Malaysia","MYS",224,413,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2022,"United Kingdom of Great Britain and Northern Ireland","GBR","Malaysia","MYS",0,5,0,"-",0,0,0,"GB","Europe","Northern Europe",55.378051,-3.435973,4.210484,101.975766
+2022,"Guinea","GIN","Malaysia","MYS",13,24,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2022,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2022,"India","IND","Malaysia","MYS",5,22,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2022,"Indonesia","IDN","Malaysia","MYS",0,0,0,"-",0,0,961,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2022,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",252,141,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2022,"Iraq","IRQ","Malaysia","MYS",306,443,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2022,"Jordan","JOR","Malaysia","MYS",5,0,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2022,"Liberia","LBR","Malaysia","MYS",20,9,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2022,"Libya","LBY","Malaysia","MYS",14,16,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2022,"Lebanon","LBN","Malaysia","MYS",5,0,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2022,"Sri Lanka","LKA","Malaysia","MYS",739,768,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2022,"Mali","MLI","Malaysia","MYS",5,0,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2022,"Myanmar","MMR","Malaysia","MYS",123563,34602,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2022,"Nepal","NPL","Malaysia","MYS",9,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2022,"Nigeria","NGA","Malaysia","MYS",5,37,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2022,"Pakistan","PAK","Malaysia","MYS",4064,2812,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2022,"Philippines","PHL","Malaysia","MYS",8,8,0,"-",0,0,55000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2022,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2022,"Sierra Leone","SLE","Malaysia","MYS",9,36,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2022,"Somalia","SOM","Malaysia","MYS",2190,843,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2022,"South Sudan","SSD","Malaysia","MYS",43,18,0,"-",0,0,0,"SS","Africa","Sub-Saharan Africa",7.8627,29.6947,4.210484,101.975766
+2022,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",115169,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2022,"Sudan","SDN","Malaysia","MYS",178,100,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2022,"Syrian Arab Rep.","SYR","Malaysia","MYS",409,2399,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2022,"Thailand","THA","Malaysia","MYS",25,17,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2022,"Uganda","UGA","Malaysia","MYS",6,9,0,"-",0,0,0,"UG","Africa","Sub-Saharan Africa",1.373333,32.290275,4.210484,101.975766
+2022,"United States of America","USA","Malaysia","MYS",5,0,0,"-",0,0,0,"US","Americas","Northern America",37.09024,-95.712891,4.210484,101.975766
+2022,"Uzbekistan","UZB","Malaysia","MYS",0,8,0,"-",0,0,0,"UZ","Asia","Central Asia",41.377491,64.585262,4.210484,101.975766
+2022,"Yemen","YEM","Malaysia","MYS",349,2997,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2022,"Zimbabwe","ZWE","Malaysia","MYS",0,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
+2023,"Afghanistan","AFG","Malaysia","MYS",1512,1394,0,"-",0,0,0,"AF","Asia","Southern Asia",33.93911,67.709953,4.210484,101.975766
+2023,"Algeria","DZA","Malaysia","MYS",6,7,0,"-",0,0,0,"DZ","Africa","Northern Africa",28.033886,1.659626,4.210484,101.975766
+2023,"Egypt","EGY","Malaysia","MYS",20,62,0,"-",0,0,0,"EG","Africa","Northern Africa",26.820553,30.802498,4.210484,101.975766
+2023,"Bangladesh","BGD","Malaysia","MYS",41,26,0,"-",0,0,0,"BD","Asia","Southern Asia",23.684994,90.356331,4.210484,101.975766
+2023,"Cambodia","KHM","Malaysia","MYS",65,27,0,"-",0,0,0,"KH","Asia","South-eastern Asia",12.565679,104.990963,4.210484,101.975766
+2023,"Central African Rep.","CAF","Malaysia","MYS",5,0,0,"-",0,0,0,"CF","Africa","Sub-Saharan Africa",6.611111,20.939444,4.210484,101.975766
+2023,"China","CHN","Malaysia","MYS",20,16,0,"-",0,0,0,"CN","Asia","Eastern Asia",35.86166,104.195397,4.210484,101.975766
+2023,"Cameroon","CMR","Malaysia","MYS",10,27,0,"-",0,0,0,"CM","Africa","Sub-Saharan Africa",7.369722,12.354722,4.210484,101.975766
+2023,"Dem. Rep. of the Congo","COD","Malaysia","MYS",9,0,0,"-",0,0,0,"CD","Africa","Sub-Saharan Africa",-4.038333,21.758664,4.210484,101.975766
+2023,"Eritrea","ERI","Malaysia","MYS",34,0,0,"-",0,0,0,"ER","Africa","Sub-Saharan Africa",15.179384,39.782334,4.210484,101.975766
+2023,"Ethiopia","ETH","Malaysia","MYS",9,8,0,"-",0,0,0,"ET","Africa","Sub-Saharan Africa",9.145,40.489673,4.210484,101.975766
+2023,"Palestinian","PSE","Malaysia","MYS",219,394,0,"-",0,0,0,"PS","Asia","Western Asia",31.952162,35.233154,4.210484,101.975766
+2023,"Guinea","GIN","Malaysia","MYS",11,30,0,"-",0,0,0,"GN","Africa","Sub-Saharan Africa",9.945587,-9.696645,4.210484,101.975766
+2023,"Cote d'Ivoire","CIV","Malaysia","MYS",5,0,0,"-",0,0,0,"CI","Africa","Sub-Saharan Africa",7.539989,-5.54708,4.210484,101.975766
+2023,"India","IND","Malaysia","MYS",0,18,0,"-",0,0,0,"IN","Asia","Southern Asia",20.593684,78.96288,4.210484,101.975766
+2023,"Indonesia","IDN","Malaysia","MYS",0,0,0,"-",0,0,814,"ID","Asia","South-eastern Asia",-0.789275,113.921327,4.210484,101.975766
+2023,"Iran (Islamic Rep. of)","IRN","Malaysia","MYS",243,115,0,"-",0,0,0,"IR","Asia","Southern Asia",32.427908,53.688046,4.210484,101.975766
+2023,"Iraq","IRQ","Malaysia","MYS",264,410,0,"-",0,0,0,"IQ","Asia","Western Asia",33.223191,43.679291,4.210484,101.975766
+2023,"Jordan","JOR","Malaysia","MYS",5,0,0,"-",0,0,0,"JO","Asia","Western Asia",30.585164,36.238414,4.210484,101.975766
+2023,"Liberia","LBR","Malaysia","MYS",19,12,0,"-",0,0,0,"LR","Africa","Sub-Saharan Africa",6.428055,-9.429499,4.210484,101.975766
+2023,"Libya","LBY","Malaysia","MYS",11,0,0,"-",0,0,0,"LY","Africa","Northern Africa",26.3351,17.228331,4.210484,101.975766
+2023,"Lebanon","LBN","Malaysia","MYS",5,0,0,"-",0,0,0,"LB","Asia","Western Asia",33.854721,35.862285,4.210484,101.975766
+2023,"Sri Lanka","LKA","Malaysia","MYS",698,569,0,"-",0,0,0,"LK","Asia","Southern Asia",7.873054,80.771797,4.210484,101.975766
+2023,"Mali","MLI","Malaysia","MYS",5,0,0,"-",0,0,0,"ML","Africa","Sub-Saharan Africa",17.570692,-3.996166,4.210484,101.975766
+2023,"Myanmar","MMR","Malaysia","MYS",125698,36745,0,"-",0,0,0,"MM","Asia","South-eastern Asia",21.913965,95.956223,4.210484,101.975766
+2023,"Nepal","NPL","Malaysia","MYS",6,0,0,"-",0,0,0,"NP","Asia","Southern Asia",28.394857,84.124008,4.210484,101.975766
+2023,"Nigeria","NGA","Malaysia","MYS",5,49,0,"-",0,0,0,"NG","Africa","Sub-Saharan Africa",9.081999,8.675277,4.210484,101.975766
+2023,"Pakistan","PAK","Malaysia","MYS",4034,2323,0,"-",0,0,0,"PK","Asia","Southern Asia",30.375321,69.345116,4.210484,101.975766
+2023,"Philippines","PHL","Malaysia","MYS",0,8,0,"-",0,0,55000,"PH","Asia","South-eastern Asia",12.879721,121.774017,4.210484,101.975766
+2023,"Russian Federation","RUS","Malaysia","MYS",5,0,0,"-",0,0,0,"RU","Europe","Eastern Europe",61.52401,105.318756,4.210484,101.975766
+2023,"Sierra Leone","SLE","Malaysia","MYS",10,29,0,"-",0,0,0,"SL","Africa","Sub-Saharan Africa",8.460555,-11.779889,4.210484,101.975766
+2023,"Somalia","SOM","Malaysia","MYS",1906,861,0,"-",0,0,0,"SO","Africa","Sub-Saharan Africa",5.152149,46.199616,4.210484,101.975766
+2023,"South Sudan","SSD","Malaysia","MYS",55,25,0,"-",0,0,0,"SS","Africa","Sub-Saharan Africa",7.8627,29.6947,4.210484,101.975766
+2023,"Stateless","XXA","Malaysia","MYS",0,0,0,"-",117070,0,0,NA,NA,NA,NA,NA,4.210484,101.975766
+2023,"Sudan","SDN","Malaysia","MYS",168,133,0,"-",0,0,0,"SD","Africa","Northern Africa",12.862807,30.217636,4.210484,101.975766
+2023,"Syrian Arab Rep.","SYR","Malaysia","MYS",394,2365,0,"-",0,0,0,"SY","Asia","Western Asia",34.802075,38.996815,4.210484,101.975766
+2023,"Thailand","THA","Malaysia","MYS",20,14,0,"-",0,0,0,"TH","Asia","South-eastern Asia",15.870032,100.992541,4.210484,101.975766
+2023,"Uganda","UGA","Malaysia","MYS",10,10,0,"-",0,0,0,"UG","Africa","Sub-Saharan Africa",1.373333,32.290275,4.210484,101.975766
+2023,"United States of America","USA","Malaysia","MYS",6,0,0,"-",0,0,0,"US","Americas","Northern America",37.09024,-95.712891,4.210484,101.975766
+2023,"Yemen","YEM","Malaysia","MYS",339,2889,0,"-",0,0,0,"YE","Asia","Western Asia",15.552727,48.516388,4.210484,101.975766
+2023,"Zimbabwe","ZWE","Malaysia","MYS",0,5,0,"-",0,0,0,"ZW","Africa","Sub-Saharan Africa",-19.015438,29.154857,4.210484,101.975766
