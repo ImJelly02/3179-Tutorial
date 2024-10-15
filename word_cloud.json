@@ -1,0 +1,104 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "width": 550,
+    "height": 350,
+    "signals": [
+      {
+        "name": "year",       
+        "value": 2011,          
+        "bind": {
+          "input": "range",
+          "min": 2003,          
+          "max": 2023,         
+          "step": 1,
+          "name": "Select Year"
+        }
+      },
+      {
+        "name": "field_selection",  
+        "value": "refugees_under_unhcr_mandate",
+        "bind": {
+          "input": "select",
+          "options": ["refugees_under_unhcr_mandate", "asylum_seekers"],
+          "name": "Select Field: "
+        }
+      }
+    ],
+    "data": [
+      {
+        "name": "default",
+        "url": "DataProcessing/cleaned_population.csv",  
+        "format": {"type": "csv"},
+        "transform": [
+          {
+            "type": "filter",
+            "expr": "datum.year == year" 
+          },
+          {
+            "type": "aggregate",
+            "groupby": ["year", "country_of_origin"], 
+            "fields": [{"signal": "field_selection"}],  
+            "ops": ["sum"],
+            "as": ["total_sum_field"]
+          },
+          {
+            "type": "formula",
+            "as": "rotate",
+            "expr": "[0, 90][~~(datum.index % 2)]"
+          },
+          {
+            "type": "formula",
+            "as": "weight",
+            "expr": "if(datum.index == 0, 600, 400)"
+          },
+          {
+            "type": "wordcloud",
+            "size": [{"signal": "width"}, {"signal": "height"}],
+            "text": {"field": "country_of_origin"},
+            "fontSize": {"field": "total_sum_field"},  
+            "fontWeight": {"field": "weight"},
+            "fontSizeRange": [{"signal": "(width+height)/90"}, {"signal": "(width+height)/18"}],
+            "padding": {"value": 2},
+            "rotate": {"field": "rotate"}
+          }
+        ]
+      }
+    ],
+    "scales": [
+      {
+        "name": "color",
+        "type": "ordinal",
+        "domain": {"data": "default", "field": "country_of_origin"},
+        "scheme": "tableau20"
+      }
+    ],
+    "marks": [
+      {
+        "type": "text",
+        "from": {"data": "default"},
+        "encode": {
+          "enter": {
+            "text": {"field": "country_of_origin"},
+            "align": {"value": "center"},
+            "baseline": {"value": "alphabetic"},
+            "fill": {"scale": "color", "field": "country_of_origin"}
+          },
+          "update": {
+            "x": {"field": "x"},
+            "y": {"field": "y"},
+            "angle": {"field": "angle"},
+            "fontSize": {"field": "fontSize"},
+            "fontWeight": {"field": "weight"},
+            "fillOpacity": {"value": 0.7}
+          },
+          "hover": {
+            "fillOpacity": {"value": 1},
+            "tooltip": {
+              "signal": "{'Country': datum.country_of_origin, 'Year': datum.year, 'Total': datum.total_sum_field}"
+            }
+          }
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,190 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 900,
+  "height": 600,
+  "signals": [
+    {
+      "name": "hover",
+      "value": null,
+      "on": [
+        {"events": "@symbol:mouseover", "update": "datum"},
+        {"events": "@symbol:mouseout", "update": "null"}
+      ]
+    },
+    {
+      "name": "title",
+      "value": " ",
+      "update": "hover ? hover.country_of_origin + ' (' + hover.total_refugees_sum + ')' : ' '"
+    },
+    {
+      "name": "year",
+      "value": 2011,
+      "bind":{
+        "input": "range",
+        "min": 2003,
+        "max": 2023,
+        "step": 1,
+        "name": "Select the year: "
+      }
+    }
+  ],
+  "projections": [
+    {
+      "name": "projection",
+      "type": "equalEarth",
+      "translate": [{"signal": "width / 2"}, {"signal": "height / 2"}]
+    }
+  ],
+  "data": [
+    {
+      "name": "countries",
+      "url": "ne_110m.json",
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"},
+      "transform": [
+        {
+          "type": "geopath",
+          "projection": "projection"
+        }
+      ]
+    },
+    {
+      "name": "refugees",
+      "url": "DataProcessing/cleaned_population_new.csv",
+      "format": {"type": "csv", "parse": "auto"},
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.year == year"
+        },
+        {
+          "type": "formula",
+          "as": "total_refugees",
+          "expr": "datum.refugees_under_unhcr_mandate + datum.asylum_seekers + datum.stateless_persons"
+        },
+        {
+          "type": "geopoint",
+          "projection": "projection",
+          "fields": ["longitude_origin", "latitude_origin"],
+          "as": ["x", "y"]
+        },
+        {
+          "type": "aggregate",
+          "groupby": ["country_of_origin", "year", "x", "y"],
+          "fields": ["total_refugees"],
+          "ops": ["sum"],
+          "as": ["total_refugees_sum"]
+        }
+      ]
+    },
+    {
+      "name": "routes",
+      "url": "DataProcessing/cleaned_population_new.csv",
+      "format": {"type": "csv", "parse": "auto"},
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.longitude_origin && datum.latitude_origin && datum.latitude_asylum && datum.longitude_asylum"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "path",
+      "from": {"data": "countries"},
+      "encode": {
+        "enter": {
+          "fill": {"value": "#dedede"},
+          "stroke": {"value": "white"}
+        },
+        "update": {
+          "path": {"field": "path"}
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {"data": "refugees"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "total_refugees_sum", "type": "quantitative"},
+          "fillOpacity": {"value": 0.8},
+          "stroke": {"value": "black"},
+          "strokeWidth": {"value": 0.1},
+          "tooltip": {
+            "signal": "{'Country': datum.country_of_origin, 'Total Refugees': datum.total_refugees_sum}"
+          }
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "interactive": false,
+      "encode": {
+        "enter": {
+          "x": {"signal": "width", "offset": -5},
+          "y": {"value": 0},
+          "fill": {"value": "black"},
+          "fontSize": {"value": 20},
+          "align": {"value": "right"}
+        },
+        "update": {
+          "text": {"signal": "title"}
+        }
+      }
+    },
+    {
+      "type": "path",
+      "from": {"data": "routes"},
+      "transform": [
+        {
+          "type": "geopath",
+          "projection": "projection"
+        }
+      ],
+      "encode": {
+        "enter": {
+          "stroke": {"value": "black"},
+          "strokeOpacity": {"value": 0.5},
+          "strokeWidth": {"value": 1}
+        },
+        "update": {
+          "path": {"field": "path"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": [20, 200, 2000, 20000, 200000],
+      "range": ["#FFCCCC", "#FF6666", "#990000", "#7b583d", "#000000"]
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Total Number of Refugees",
+      "orient": "none",
+      "direction": "horizontal",
+      "legendX": 610,
+      "legendY": 570,
+      "gradientLength": 300,
+      "labelFont": "Segoe UI",
+      "labelFontSize": 10,
+      "labelColor": "black",
+      "titleFont": "Segoe UI",
+      "titleFontSize": 11,
+      "titleColor": "black",
+      "titleLimit": 300,
+      "titleOrient": "top",
+      "symbolSize": 100,
+      "symbolStrokeWidth": 1.5
+    }
+  ]
+}
