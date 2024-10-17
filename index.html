@@ -254,7 +254,7 @@
                     <h2>THE TOP ORIGIN COUNTRIES OF REFUGEES IN MALAYSIA</h2>
                     <p>Malaysia has shown consistent sympathy towards the Rohingya population, a large portion of the refugee community, as part of its broader stance against the persecution of Muslims globally. The Malaysian government has raised awareness of the plight of the Rohingyas at the international level and has expressed concerns over Myanmar’s treatment of this group.</p>
                 </div>
-                <div id="top_10_bubble" class="chart-container vis-container"></div>
+                <div id="word_cloud" class="chart-container vis-container"></div>
             </div>
         </div>
     </div>
@@ -318,10 +318,10 @@
             console.error(error);
         });
 
-        vegaEmbed('#top_10_bubble', 'word_cloud.json', { "actions": false }).then(function (result) {
+        vegaEmbed('#word_cloud', 'word_cloud.json', { "actions": false }).then(function (result) {
             console.log("Top 10 Bubble Chart rendered");
         }).catch(function(error) {
-            document.getElementById('top_10_bubble').innerHTML = '<p>Bubble chart data could not be loaded.</p>';
+            document.getElementById('word_cloud').innerHTML = '<p>Bubble chart data could not be loaded.</p>';
             console.error(error);
         });
 
