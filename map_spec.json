@@ -49,7 +49,7 @@
     },
     {
       "name": "refugees",
-      "url": "DataProcessing/cleaned_population_new.csv",
+      "url": "cleaned_population_new.csv",
       "format": {"type": "csv", "parse": "auto"},
       "transform": [
         {
