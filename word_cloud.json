@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "width": 550,
-    "height": 350,
+    "width": 560,
+    "height": 360,
     "signals": [
       {
         "name": "year",       
@@ -20,14 +20,18 @@
         "bind": {
           "input": "select",
           "options": ["refugees_under_unhcr_mandate", "asylum_seekers"],
-          "name": "Select Field: "
+          "name": "Select Refugees Status: "
         }
+      },
+      {
+        "name": "appropriate_label",
+        "update": "field_selection === 'refugees_under_unhcr_mandate' ? 'Refugees Under UNHCR Mandate' : 'Asylum Seekers'"
       }
     ],
     "data": [
       {
         "name": "default",
-        "url": "cleaned_population.csv",  
+        "url": "DataProcessing/cleaned_population.csv",  
         "format": {"type": "csv"},
         "transform": [
           {
@@ -36,10 +40,20 @@
           },
           {
             "type": "aggregate",
-            "groupby": ["year", "country_of_origin"], 
+            "groupby": ["year", "country_of_origin", "region"], 
             "fields": [{"signal": "field_selection"}],  
             "ops": ["sum"],
             "as": ["total_sum_field"]
+          },
+          {
+            "type": "window",
+            "ops": ["rank"],
+            "as": ["rank"],
+            "sort": {"field": "total_sum_field", "order": "descending"}
+          },
+          {
+            "type": "filter",
+            "expr": "datum.rank <= 15"
           },
           {
             "type": "formula",
@@ -87,6 +101,7 @@
             "x": {"field": "x"},
             "y": {"field": "y"},
             "angle": {"field": "angle"},
+            "font": {"value": "Times New Roman"},
             "fontSize": {"field": "fontSize"},
             "fontWeight": {"field": "weight"},
             "fillOpacity": {"value": 0.7}
@@ -94,7 +109,7 @@
           "hover": {
             "fillOpacity": {"value": 1},
             "tooltip": {
-              "signal": "{'Country': datum.country_of_origin, 'Year': datum.year, 'Total': datum.total_sum_field}"
+              "signal": "{'Year': datum.year, 'Country': datum.country_of_origin, 'Region': datum.region, 'Refugees Count': datum.total_sum_field}"
             }
           }
         }
