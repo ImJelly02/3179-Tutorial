@@ -12,9 +12,22 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 
     <!-- Google Font -->
+     <!--Raleway-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--DM Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <!--Roboto Serif-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <!--Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
 
     <!-- CSS Styling -->
     <style>
@@ -24,11 +37,21 @@
             box-sizing: border-box;
         }
 
+        html, body {
+            background-color: #FAF7F0; /* Background color for the space outside content */
+            margin: 0; /* Ensure no extra margins are added by default */
+            padding: 0;
+        }
+
         body {
-            font-family: 'Open Sans', sans-serif;
+            font-family: 'Open Sans', sans-serif; /* Should I delete this since I don't use it anymore */
             background-color: white;
             color: black;
             line-height: 1.6;
+            border-left: 2px solid #E3E1D9; /* Left border */
+            border-right: 2px solid #E3E1D9; /* Right border */
+            margin-left: 100px; /* Space between content and border */
+            margin-right: 100px; /* Space between content and border */
         }
 
         .container {
@@ -40,42 +63,48 @@
         /* Title Section */
         .title-section {
             text-align: center;
-            margin-bottom: 50px;
-            padding-bottom: 20px;
-            background-color: #f0f0f0; 
+            margin-top: 0;
+            background-color: #f0f0f0;
+            height: 40vh; /* This makes the section fill the entire height of the viewport */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centers the content vertically */
+            border-bottom: 5px solid #ccc;
         }
 
         .title-section h1 {
-            font-size: 2.5em;
-            font-weight: 600;
+            font-size: 2.9em;
+            font-weight: 700;
             color: #333;
             margin-bottom: 10px;
+            font-family: "Raleway", sans-serif; /* Set topic font to sans-serif */
         }
 
         .title-section p {
-            font-size: 1.2em;
+            font-size: 1.3em;
             color: #666;
             max-width: 800px;
             margin: 0 auto;
+            font-family: "DM Sans", sans-serif; /* Set description font to sans-serif */
         }
 
         h2 {
             font-weight: 600;
             margin-bottom: 15px;
+            font-family: "Roboto Serif", serif; /* Set topic font to serif */
         }
 
         .chart-section {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
-            margin-bottom: 60px;
         }
 
         .chart-container {
             flex: 1;
             min-width: 450px;
             height: 400px;
-            margin: 20px;
+            margin: 30px;
         }
 
         .chart-text {
@@ -83,52 +112,52 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 20px;
-            font-size: 1.2em;
+            font-size: 1.3em;
+            font-family: "Lato", sans-serif; /* Set description font to sans-serif */
+            padding: 10px;
         }
 
         .centered-chart {
             display: flex;
             justify-content: center;
-            margin: 40px 0;
-            background-color: white; 
+            background-color: white;
         }
 
         .vis-container {
             width: 100%;
             height: 100%;
-            background-color: white;  
+            background-color: white;
             border-radius: 10px;
             border: none;
         }
 
         /* Word Cloud Section */
         .word-cloud-section {
-            background-color: #f0f0f0; 
-            padding: 20px 0;
+            background-color: #f0f0f0;
+            border-bottom: 5px solid #ccc;
+            border-top: 5px solid #ccc;
         }
+
         /* Timeline container */
         .timeline {
             position: relative;
             max-width: 1200px;
             margin: 50px auto;
-            background-color: white; /* White background for timeline */
+            background-color: white;
             padding: 20px 0;
         }
 
-        /* The timeline line */
         .timeline::after {
             content: '';
             position: absolute;
             width: 6px;
-            background-color: #ddd;
-            top: 0;
-            bottom: 0;
+            background-color: #f45c42;
+            top: 148px;
+            bottom: 23px;
             left: 50%;
             margin-left: -3px;
         }
 
-        /* Container around content */
         .timeline-container {
             padding: 10px 40px;
             position: relative;
@@ -138,19 +167,18 @@
         .timeline-title {
             text-align: center;
             margin-bottom: 40px;
+            font-size: 35px;
+
         }
 
-        /* Left-side timeline items */
         .timeline-container.left {
             left: 0;
         }
 
-        /* Right-side timeline items */
         .timeline-container.right {
             left: 50%;
         }
 
-        /* Content styling */
         .timeline-content {
             padding: 20px;
             background-color: white;
@@ -159,48 +187,54 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
 
-        /* Timeline arrows */
         .timeline-container.left::after {
             content: '';
             position: absolute;
             top: 15px;
-            right: -15px;
+            right: 15px;
             border-width: 15px;
             border-style: solid;
-            border-color: transparent white transparent transparent;
+            border-color: transparent #f45c42 transparent transparent;
         }
 
         .timeline-container.right::after {
             content: '';
             position: absolute;
             top: 15px;
-            left: -15px;
+            left: 15px;
             border-width: 15px;
             border-style: solid;
-            border-color: transparent transparent transparent white;
+            border-color: transparent transparent transparent #f45c42;
         }
 
         .timeline-content h2 {
             margin-top: 0;
             color: #f45c42;
+            font-size: 2.9em;
+            font-family: "Raleway", sans-serif; /* Set topic font to sans-serif */
         }
 
         .timeline-content p {
             margin: 0;
+            font-size: 1.2em; /* Increase font size */
+            font-family: "Lato", sans-serif; /* Set description font to sans-serif */
         }
 
-        .bar-chart-section{
-            background-color: #f0f0f0; 
+        .bar-chart-section {
+            background-color: #f0f0f0;
             padding: 20px 0;
+            border-bottom: 5px solid #ccc;
+            border-top: 5px solid #ccc;
         }
 
         /* Footer styling */
         .infographic-footer {
             text-align: center;
             padding: 20px;
-            margin-top: 50px;
-            background-color:white;
-            font-size: 14px;
+            margin-top: 10px;
+            background-color: white;
+            font-size: 15px; /* Increase font size */
+            font-family: "DM Sans", sans-serif; /* Set footer text to sans-serif */
         }
 
         .infographic-footer a {
@@ -220,6 +254,8 @@
 
         .infographic-footer p {
             margin: 5px 0;
+            font-family: "Lato", sans-serif; /* Set footer description font to sans-serif */
+            font-weight: 500;
         }
     </style>
 </head>
@@ -229,15 +265,17 @@
     <!-- Title Section -->
     <div class="title-section">
         <h1>WHERE REFUGEES IN MALAYSIA CAME FROM?</h1>
-        <p>Malaysia provides a temporary safe haven for refugees and asylum-seekers, offering a delicate balance of humanitarian assistance while navigating complex immigration policies. As of the end of August 2024, approximately 191,470 refugees and asylum-seekers are registered with UNHCR in Malaysia.</p>
+        <p>Malaysia provides a temporary safe haven for refugees and asylum-seekers and offers a delicate balance of humanitarian assistance while navigating complex immigration policies. As of the end of August 2024, approximately 191,470 refugees and asylum-seekers are registered with UNHCR in Malaysia.</p>
     </div>
 
     <div class="container">
         <!-- First Chart (Map) - Centered -->
         <div class="chart-section">
-            <div class="chart-text">
-                <h2>Countries of Origin for Refugees in Malaysia</h2>
-                <p>About 169,000 refugees originate from Myanmar, including 110,610 Rohingyas, 27,250 Chins, and 31,140 from other ethnic groups affected by conflict or persecution in Myanmar. An additional 22,470 refugees and asylum-seekers come from 50 other countries.</p>
+            <div class="chart-text" style="font-size: 1.2em; text-align: center;">
+                <h2>COUNTRIES OF ORIGIN FOR REFUGEES IN MALAYSIA</h2>
+                <p style="font-size: 1.1em; text-align: left;">
+                    About 169,000 refugees originate from Myanmar, including 110,610 Rohingyas, 27,250 Chins, and 31,140 from other ethnic groups affected by conflict or persecution in Myanmar. An additional 22,470 refugees and asylum-seekers come from 50 other countries.
+                </p>                
             </div>
             <div class="centered-chart">
                 <div id="map" class="chart-container vis-container"></div>
@@ -245,14 +283,13 @@
         </div>
     </div>
 
-
     <!-- Word Cloud Section -->
     <div class="word-cloud-section">
         <div class="container">
             <div class="chart-section">
                 <div class="chart-text">
-                    <h2>THE TOP ORIGIN COUNTRIES OF REFUGEES IN MALAYSIA</h2>
-                    <p>Malaysia has shown consistent sympathy towards the Rohingya population, a large portion of the refugee community, as part of its broader stance against the persecution of Muslims globally. The Malaysian government has raised awareness of the plight of the Rohingyas at the international level and has expressed concerns over Myanmar’s treatment of this group.</p>
+                    <h2>THE TOP 15 ORIGIN COUNTRIES OF REFUGEES IN MALAYSIA</h2>
+                    <p>Although Malaysia has yet to become a signatory to the 1951 Refugee Convention and its 1967 Protocol, it still opens its doors to refugees, just like other countries. Due to lack of formal framework for refugees, most of the refugees in Malaysia are viewed similarly to 'illegal immigrants' and remain vulnerable, with limited access to basic welfare services.</p>
                 </div>
                 <div id="word_cloud" class="chart-container vis-container"></div>
             </div>
@@ -261,35 +298,35 @@
 
     <!-- Timeline Section -->
     <div class="timeline">
-        <h2 class="timeline-title">Global Refugee Crisis Timeline (2000 - 2023)</h2>
+        <h2 class="timeline-title">GLOBAL REFUGEE CRISIS TIMELINE FROM 2000 TO 2023</h2>
         <div class="timeline-container left">
             <div class="timeline-content">
-                <h2>2003</h2>
-                <p>Iraq War: This conflict triggered a significant displacement of people from Iraq.</p>
+                <h2>1976 - 2005</h2>
+                <p><b>Insurgency in Aceh:</b> Thousands of Indonesians have fled to Malaysia to escape the violent conflict in Aceh province since the start of military operations in May 2003. </p>
             </div>
         </div>
         <div class="timeline-container right">
             <div class="timeline-content">
-                <h2>2014</h2>
-                <p>Syrian Civil War escalation: Led to one of the largest refugee crises in modern history.</p>
+                <h2>1991 - Present</h2>
+                <p><b>Somali Civil War:</b> Persistent political instability, conflict, and catastrophic drought have driven many Somalis to leave their homes in search of a better life. Following the outbreak of the brutal civil war in Yemen, once a common refuge for them, many eventually sought safety in Malaysia, a country known for its support of Muslim communities.</p>
             </div>
         </div>
         <div class="timeline-container left">
             <div class="timeline-content">
-                <h2>2015</h2>
-                <p>Yemen Civil War: This conflict has created a major humanitarian crisis and displacement.</p>
+                <h2>2014 - Present</h2>
+                <p><b>Syrian Civil War:</b> The prolonged and ongoing civil war has forced millions of Syrians to flee their homeland, resulting in one of the largest refugee crises in modern history. In October 2015, Malaysia's Prime Minister Najib Razak announced his plan to accept Syrian refugees at the United Nations.</p>
             </div>
         </div>
         <div class="timeline-container right">
             <div class="timeline-content">
-                <h2>2017</h2>
-                <p>Myanmar Genocide:Over 700,000 Rohingya fled to neighboring Bangladesh due to violence, persecution, and destruction of villages.</p>
+                <h2>2015 - Present</h2>
+                <p><b>Yemen Civil War:</b> The devastating war intensified in March 2015 when Saudi Arabia, along with eight other Arab states launched a military intervention, leading to a severe humanitarian crisis and mass displacement. As a result, many sought refuge in Malaysia, a country with a history of protecting persecuted Muslim populations and one of the few nations offering visa-free entry to Yemenis.</p>
             </div>
         </div>
         <div class="timeline-container left">
             <div class="timeline-content">
-                <h2>2021</h2>
-                <p>Afghanistan Taliban Takeover: After the withdrawal of international forces, many Afghans fled the country.</p>
+                <h2>2016 - Present</h2>
+                <p><b>Myanmar Genocide:</b> In August 2017, the Myanmar military launched a brutal campaign of massacres, rape, and arson in northern Rakhine State, forcing millions of Rohingya Muslims to flee their homes to escape systematic abuse and oppression. Many sought asylum in neighboring countries, such as Bangladesh and Malaysia. However, the increasing number of refugees has put pressure on local communities, resulting in negative attitudes among some of the local population.</p>
             </div>
         </div>
     </div>
@@ -299,16 +336,26 @@
         <div class="chart-section">
             <div id="bar_chart" class="chart-container vis-container"></div>
             <div class="chart-text">
-                <h2>Total Refugees and Stateless Persons</h2>
-                <p>In 2023, Malaysia's stateless population includes 9,392 non-displaced individuals eligible for Malaysian citizenship.</p>
+                <h2>REFUGEES AND STATELESS PERSONS IN MALAYSIA</h2>
+                <p style="padding-right: 20px;">In 2023, Malaysia's stateless population includes 9,392 non-displaced individuals eligible for Malaysian citizenship. Although stateless persons are not strictly classified as refugees, they face significant challenges regarding basic rights, such as lack of access to education, healthcare, and legal employment, living in conditions similar to refugees. <br>In Peninsular Malaysia, most stateless individuals are second and third-generation Indian-Tamils struggling to obtain citizenship. The Bajau Laut, a nomadic coastal community on the east coast of Sabah, also remain stateless due to unregistered births and lack of identity documents. Additionally, abandoned children, unaccompanied minors, and street children are often considered stateless.</br></p>
             </div>
         </div>
     </div>
+
     <!-- Footer -->
     <footer class="infographic-footer">
         <p>Created by Yeoh Sin Yee.</p>
-        <p>Date: 15/10/2024</p>
-        <p>Source:<a href="https://www.unhcr.org/refugee-statistics/download/?url=AJI2Ex" target="_blank"> UNHCR</a></p>
+        <p>Date: Oct 15, 2024</p>
+        <p>Data Source:<a href="https://www.unhcr.org/refugee-statistics/download/?url=AJI2Ex" target="_blank"> UNHCR</a></p>
+        <p>References:<br><a href="https://www.hrw.org/news/2022/08/24/myanmar-no-justice-no-freedom-rohingya-5-years" target="_blank"> Myanmar: No Justice, No Freedom for Rohingya 5 Years On</a></br></p>
+        <p><a href="https://www.hrw.org/report/2004/03/31/aceh-under-martial-law-problems-faced-acehnese-refugees-malaysia" target="_blank"> Aceh Under Martial Law: Problems Faced by Acehnese Refugees in Malaysia</a></p>
+        <p><a href="https://www.ipsos.com/en-my/world-refugee-day-2019-malaysian-perspective" target="_blank"> World Refugee Day 2019: A Malaysian Perspective</a></p>
+        <p><a href="https://www.aljazeera.com/features/2015/12/27/first-class-refugees-malaysias-two-tier-system" target="_blank"> First-class refugees: Malaysia's two-tier system</a></p>
+        <p><a href="https://www.aljazeera.com/news/2019/3/24/we-have-nothing-a-life-in-limbo-for-malaysias-yemeni-refugees" target="_blank"> 'We have nothing': A life in limbo for Malaysia's Yemeni refugees</a></p>
+        <p><a href="https://theowp.org/reports/choosing-survival-rohingya-refugees-in-malaysia-vs-bangladesh/" target="_blank"> Choosing Survival: Rohingya Refugees In Malaysia vs. Bangladesh</a></p>
+        <p><a href="https://dhrramalaysia.org.my/wp-content/uploads/2022/04/Strategic-Plan-Resolving-Statelessness-in-Malaysia_compressed.pdf" target="_blank"> Resolving Statelessness In Malaysia: Strategic Plan</a></p>
+    </footer>
+
     <!-- Vega Embed Scripts with Error Handling -->
     <script type="text/javascript">
         vegaEmbed('#map', 'map_spec.json', { "actions": false }).then(function (result) {
@@ -321,7 +368,7 @@
         vegaEmbed('#word_cloud', 'word_cloud.json', { "actions": false }).then(function (result) {
             console.log("Word Cloud rendered");
         }).catch(function(error) {
-            document.getElementById('word_cloud').innerHTML = '<p>Bubble chart data could not be loaded.</p>';
+            document.getElementById('word_cloud').innerHTML = '<p>Word Cloud could not be loaded.</p>';
             console.error(error);
         });
 
