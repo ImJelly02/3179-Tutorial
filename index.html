@@ -319,7 +319,7 @@
         });
 
         vegaEmbed('#word_cloud', 'word_cloud.json', { "actions": false }).then(function (result) {
-            console.log("Top 10 Bubble Chart rendered");
+            console.log("Word Cloud rendered");
         }).catch(function(error) {
             document.getElementById('word_cloud').innerHTML = '<p>Bubble chart data could not be loaded.</p>';
             console.error(error);
