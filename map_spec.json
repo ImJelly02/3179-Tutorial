@@ -41,7 +41,7 @@
     },
     {
       "data": {
-        "url": "cleaned_population.csv",
+        "url": "DataProcessing/cleaned_population.csv",
         "format": {"type": "csv"}
       },
       "transform": [
